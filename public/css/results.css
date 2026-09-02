@@ -1,0 +1,346 @@
+/*=========================================================
+        AASRAA Skillability Centre
+        Quiz Results CSS
+=========================================================*/
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:"Poppins",sans-serif;
+
+    background:#f5f7fb;
+
+    color:#333;
+
+}
+
+/* ==========================================
+        NAVBAR
+========================================== */
+
+.navbar{
+
+    box-shadow:0 4px 12px rgba(0,0,0,.12);
+
+}
+
+.navbar-brand{
+
+    font-size:22px;
+
+    font-weight:600;
+
+}
+
+/* ==========================================
+        PAGE HEADER
+========================================== */
+
+.page-header{
+
+    background:#fff;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.page-header h2{
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+/* ==========================================
+        ANALYTICS CARDS
+========================================== */
+
+.analytics-card{
+
+    border:none;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.analytics-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.analytics-card .card-body{
+
+    padding:30px;
+
+}
+
+.analytics-card h6{
+
+    color:#666;
+
+    margin-top:15px;
+
+}
+
+.analytics-card h2{
+
+    font-size:30px;
+
+    font-weight:700;
+
+}
+
+/* ==========================================
+        FORM
+========================================== */
+
+.card{
+
+    border-radius:15px;
+
+}
+
+.form-control,
+.form-select{
+
+    height:48px;
+
+    border-radius:10px;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+    box-shadow:none;
+
+    border-color:#0d6efd;
+
+}
+
+/* ==========================================
+        TABLE
+========================================== */
+
+.table{
+
+    margin-bottom:0;
+
+}
+
+.table thead th{
+
+    text-align:center;
+
+    vertical-align:middle;
+
+}
+
+.table td{
+
+    text-align:center;
+
+    vertical-align:middle;
+
+}
+
+/* ==========================================
+        STATUS
+========================================== */
+
+.status-pass{
+
+    display:inline-block;
+
+    padding:6px 18px;
+
+    background:#198754;
+
+    color:#fff;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+}
+
+.status-fail{
+
+    display:inline-block;
+
+    padding:6px 18px;
+
+    background:#dc3545;
+
+    color:#fff;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+}
+
+/* ==========================================
+        ACTION BUTTONS
+========================================== */
+
+.action-btn{
+
+    width:38px;
+
+    height:38px;
+
+    border:none;
+
+    border-radius:8px;
+
+    color:#fff;
+
+    margin:0 3px;
+
+    transition:.3s;
+
+}
+
+.view-btn{
+
+    background:#0d6efd;
+
+}
+
+.view-btn:hover{
+
+    background:#0b5ed7;
+
+}
+
+.delete-btn{
+
+    background:#dc3545;
+
+}
+
+.delete-btn:hover{
+
+    background:#bb2d3b;
+
+}
+
+/* ==========================================
+        MODAL
+========================================== */
+
+.modal-content{
+
+    border-radius:15px;
+
+}
+
+.modal-header{
+
+    border-top-left-radius:15px;
+
+    border-top-right-radius:15px;
+
+}
+
+.modal-body strong{
+
+    display:block;
+
+    color:#555;
+
+    margin-bottom:5px;
+
+}
+
+/* ==========================================
+        FOOTER
+========================================== */
+
+footer{
+
+    background:#fff;
+
+}
+
+footer p{
+
+    font-weight:500;
+
+}
+
+/* ==========================================
+        RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+    .page-header{
+
+        flex-direction:column;
+
+        text-align:center;
+
+        gap:20px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .analytics-card{
+
+        margin-bottom:20px;
+
+    }
+
+    .page-header{
+
+        padding:20px;
+
+    }
+
+    .page-header h2{
+
+        font-size:26px;
+
+    }
+
+    .navbar-brand{
+
+        font-size:18px;
+
+    }
+
+}

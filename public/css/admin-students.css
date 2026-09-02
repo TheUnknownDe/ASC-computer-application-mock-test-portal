@@ -1,0 +1,344 @@
+/*=========================================================
+        AASRAA Skillability Centre
+        Manage Students CSS
+=========================================================*/
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:"Poppins",sans-serif;
+
+    background:#f5f7fb;
+
+    color:#333;
+
+}
+
+/* ==========================================
+        NAVBAR
+========================================== */
+
+.navbar{
+
+    box-shadow:0 4px 12px rgba(0,0,0,.12);
+
+}
+
+.navbar-brand{
+
+    font-size:22px;
+
+    font-weight:600;
+
+}
+
+.navbar .btn{
+
+    border-radius:8px;
+
+}
+
+/* ==========================================
+        PAGE HEADER
+========================================== */
+
+.page-header{
+
+    background:#fff;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.page-header h2{
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+/* ==========================================
+        STATISTICS CARDS
+========================================== */
+
+.stat-card{
+
+    border:none;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.stat-card .card-body{
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+.stat-card h6{
+
+    color:#666;
+
+    margin-top:15px;
+
+}
+
+.stat-card h2{
+
+    font-size:32px;
+
+    font-weight:700;
+
+}
+
+/* ==========================================
+        SEARCH CARD
+========================================== */
+
+.card{
+
+    border-radius:15px;
+
+}
+
+.form-control{
+
+    height:48px;
+
+    border-radius:10px;
+
+}
+
+.form-control:focus{
+
+    box-shadow:none;
+
+    border-color:#0d6efd;
+
+}
+
+/* ==========================================
+        TABLE
+========================================== */
+
+.table{
+
+    margin-bottom:0;
+
+}
+
+.table thead th{
+
+    text-align:center;
+
+    vertical-align:middle;
+
+}
+
+.table td{
+
+    text-align:center;
+
+    vertical-align:middle;
+
+}
+
+/* ==========================================
+        STATUS
+========================================== */
+
+.status-active{
+
+    background:#198754;
+
+    color:#fff;
+
+    padding:5px 15px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+}
+
+.status-inactive{
+
+    background:#dc3545;
+
+    color:#fff;
+
+    padding:5px 15px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+}
+
+/* ==========================================
+        ACTION BUTTONS
+========================================== */
+
+.action-btn{
+
+    width:38px;
+
+    height:38px;
+
+    border:none;
+
+    border-radius:8px;
+
+    margin:0 3px;
+
+    color:#fff;
+
+    transition:.3s;
+
+}
+
+.view-btn{
+
+    background:#0d6efd;
+
+}
+
+.view-btn:hover{
+
+    background:#0b5ed7;
+
+}
+
+.delete-btn{
+
+    background:#dc3545;
+
+}
+
+.delete-btn:hover{
+
+    background:#bb2d3b;
+
+}
+
+/* ==========================================
+        MODAL
+========================================== */
+
+.modal-content{
+
+    border-radius:15px;
+
+}
+
+.modal-header{
+
+    border-top-left-radius:15px;
+
+    border-top-right-radius:15px;
+
+}
+
+.modal-body strong{
+
+    display:block;
+
+    color:#555;
+
+    margin-bottom:5px;
+
+}
+
+/* ==========================================
+        FOOTER
+========================================== */
+
+footer{
+
+    background:#fff;
+
+}
+
+footer p{
+
+    font-weight:500;
+
+}
+
+/* ==========================================
+        RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+    .page-header{
+
+        flex-direction:column;
+
+        text-align:center;
+
+        gap:20px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .stat-card{
+
+        margin-bottom:20px;
+
+    }
+
+    .page-header{
+
+        padding:20px;
+
+    }
+
+    .page-header h2{
+
+        font-size:26px;
+
+    }
+
+    .navbar-brand{
+
+        font-size:18px;
+
+    }
+
+}

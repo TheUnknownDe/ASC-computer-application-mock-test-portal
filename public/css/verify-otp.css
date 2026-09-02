@@ -1,0 +1,224 @@
+/* =========================================================
+   VERIFY OTP PAGE
+   AASRAA Skillability Centre
+========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #f5f7fb;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+}
+
+
+/* =========================================================
+   NAVBAR
+========================================================= */
+
+.navbar {
+    background: #ffffff;
+}
+
+.navbar-brand {
+    color: #212529;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    object-fit: contain;
+}
+
+.navbar-brand:hover {
+    color: #0d6efd;
+}
+
+
+/* =========================================================
+   OTP SECTION
+========================================================= */
+
+.login-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 60px 15px;
+}
+
+
+/* =========================================================
+   OTP CARD
+========================================================= */
+
+.login-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 40px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e9ecef;
+}
+
+
+/* =========================================================
+   OTP HEADER
+========================================================= */
+
+.login-card h2 {
+    font-weight: 700;
+    color: #212529;
+}
+
+.login-card p {
+    color: #6c757d;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   OTP ICON
+========================================================= */
+
+.login-card .bi-shield-lock-fill {
+    font-size: 45px;
+}
+
+
+/* =========================================================
+   FORM LABEL
+========================================================= */
+
+.form-label {
+    font-weight: 600;
+    color: #343a40;
+}
+
+
+/* =========================================================
+   OTP INPUT
+========================================================= */
+
+#otp {
+    height: 55px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    transition: all 0.2s ease;
+}
+
+#otp:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+    outline: none;
+}
+
+#otp::placeholder {
+    font-size: 15px;
+    letter-spacing: normal;
+    font-weight: 400;
+    color: #adb5bd;
+}
+
+
+/* =========================================================
+   VERIFY BUTTON
+========================================================= */
+
+#verifyOtpBtn {
+    height: 52px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+#verifyOtpBtn:hover {
+    transform: translateY(-1px);
+}
+
+#verifyOtpBtn:disabled {
+    cursor: not-allowed;
+    opacity: 0.75;
+}
+
+
+/* =========================================================
+   MESSAGE
+========================================================= */
+
+#message {
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   BACK TO LOGIN
+========================================================= */
+
+.login-card a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-card a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+    background: #ffffff;
+    border-top: 1px solid #e9ecef;
+    font-size: 14px;
+}
+
+footer p {
+    color: #6c757d;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 576px) {
+
+    .login-section {
+        padding: 35px 15px;
+    }
+
+    .login-card {
+        padding: 25px 20px;
+    }
+
+    .login-card h2 {
+        font-size: 25px;
+    }
+
+    #otp {
+        height: 50px;
+        font-size: 21px;
+        letter-spacing: 6px;
+    }
+
+    .navbar-brand {
+        font-size: 17px;
+    }
+
+}

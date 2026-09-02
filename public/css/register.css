@@ -1,0 +1,604 @@
+/* ======================================================
+        AASRAA Skillability Centre
+        Register Page Styles
+====================================================== */
+
+/* ==========================
+        GOOGLE FONT
+========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ==========================
+        RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f4f7fc;
+
+    color:#333;
+
+    min-height:100vh;
+
+}
+
+/* ==========================
+        VARIABLES
+========================== */
+
+:root{
+
+    --primary:#1E3A5F;
+
+    --secondary:#0d6efd;
+
+    --white:#ffffff;
+
+    --light:#f8f9fa;
+
+    --gray:#6c757d;
+
+    --shadow:0 12px 30px rgba(0,0,0,.08);
+
+    --radius:15px;
+
+}
+
+/* ==========================
+        NAVBAR
+========================== */
+
+.navbar{
+
+    background:#ffffff !important;
+
+    padding:16px 0;
+
+    box-shadow:0 3px 15px rgba(0,0,0,.05);
+
+}
+
+.navbar-brand{
+
+    font-size:24px;
+
+    font-weight:700;
+
+    color:var(--primary)!important;
+
+}
+
+.navbar-brand i{
+
+    margin-right:8px;
+
+}
+
+.btn-outline-primary{
+
+    border:2px solid var(--primary);
+
+    color:var(--primary);
+
+    border-radius:10px;
+
+    transition:.3s;
+
+}
+
+.btn-outline-primary:hover{
+
+    background:var(--primary);
+
+    color:#ffffff;
+
+}
+
+/* ==========================
+        REGISTER SECTION
+========================== */
+
+.register-section{
+
+    padding:70px 0;
+
+}
+
+.register-card{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.register-card h2{
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+.register-card p{
+
+    color:#666;
+
+}
+
+/* ==========================
+        FORM
+========================== */
+
+.form-label{
+
+    font-weight:600;
+
+    color:#333;
+
+}
+
+.form-control{
+
+    height:50px;
+
+    border-radius:10px;
+
+    border:1px solid #ced4da;
+
+    padding:10px 15px;
+
+    transition:.3s;
+
+}
+
+.form-control:focus{
+
+    border-color:var(--secondary);
+
+    box-shadow:0 0 0 .2rem rgba(13,110,253,.15);
+
+}
+
+/* ==========================
+        RADIO BUTTON
+========================== */
+
+.form-check{
+
+    margin-right:20px;
+
+}
+
+.form-check-input{
+
+    cursor:pointer;
+
+}
+
+.form-check-label{
+
+    cursor:pointer;
+
+}
+
+/* ==========================
+        PASSWORD BUTTON
+========================== */
+
+.input-group .btn{
+
+    border-radius:0 10px 10px 0;
+
+}
+
+.input-group .btn:focus{
+
+    box-shadow:none;
+
+}
+
+/* ==========================
+        TERMS
+========================== */
+
+.form-check-label a{
+
+    color:var(--secondary);
+
+    font-weight:500;
+
+}
+
+.form-check-label a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* ==========================
+        SUBMIT BUTTON
+========================== */
+
+.btn-primary{
+
+    background:var(--primary);
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:12px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+    background:#274d7b;
+
+    transform:translateY(-2px);
+
+}
+/* ======================================================
+                FOOTER
+====================================================== */
+
+footer{
+
+    background:#ffffff;
+
+    border-top:1px solid #e9ecef;
+
+    padding:20px 0;
+
+    text-align:center;
+
+}
+
+footer p{
+
+    margin:0;
+
+    color:#6c757d;
+
+    font-size:15px;
+
+}
+
+
+/* ======================================================
+                VALIDATION MESSAGE
+====================================================== */
+
+.error-message{
+
+    color:#dc3545;
+
+    font-size:14px;
+
+    margin-top:6px;
+
+    display:none;
+
+}
+
+.success-message{
+
+    color:#198754;
+
+    font-size:14px;
+
+    margin-top:6px;
+
+    display:none;
+
+}
+
+
+/* ======================================================
+                INVALID INPUT
+====================================================== */
+
+.form-control.is-invalid{
+
+    border-color:#dc3545;
+
+    background:#fff5f5;
+
+}
+
+.form-control.is-valid{
+
+    border-color:#198754;
+
+    background:#f6fff8;
+
+}
+
+
+/* ======================================================
+                INPUT GROUP
+====================================================== */
+
+.input-group{
+
+    position:relative;
+
+}
+
+.input-group .btn{
+
+    min-width:55px;
+
+}
+
+
+/* ======================================================
+                FORM ANIMATION
+====================================================== */
+
+.register-card{
+
+    animation:fadeIn .7s ease;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+/* ======================================================
+                BUTTON EFFECT
+====================================================== */
+
+.btn{
+
+    transition:.3s ease;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+
+/* ======================================================
+                INPUT PLACEHOLDER
+====================================================== */
+
+::placeholder{
+
+    color:#adb5bd;
+
+}
+
+
+/* ======================================================
+                FORM TITLE
+====================================================== */
+
+.register-card h2{
+
+    letter-spacing:.5px;
+
+}
+
+.register-card p{
+
+    margin-bottom:30px;
+
+}
+
+
+/* ======================================================
+                CHECKBOX
+====================================================== */
+
+.form-check-input{
+
+    width:18px;
+
+    height:18px;
+
+}
+
+.form-check-input:checked{
+
+    background-color:var(--primary);
+
+    border-color:var(--primary);
+
+}
+
+
+/* ======================================================
+                HORIZONTAL LINE
+====================================================== */
+
+hr{
+
+    opacity:.15;
+
+}
+
+
+/* ======================================================
+                LINKS
+====================================================== */
+
+a{
+
+    text-decoration:none;
+
+}
+
+a:hover{
+
+    text-decoration:underline;
+
+}
+
+
+/* ======================================================
+                RESPONSIVE
+====================================================== */
+
+@media(max-width:992px){
+
+.register-section{
+
+    padding:50px 15px;
+
+}
+
+.register-card{
+
+    padding:35px;
+
+}
+
+}
+
+
+@media(max-width:768px){
+
+.register-card{
+
+    padding:30px 25px;
+
+}
+
+.navbar-brand{
+
+    font-size:20px;
+
+}
+
+.form-control{
+
+    height:48px;
+
+}
+
+.btn-primary{
+
+    font-size:16px;
+
+}
+
+}
+
+
+@media(max-width:576px){
+
+.register-section{
+
+    padding:35px 10px;
+
+}
+
+.register-card{
+
+    padding:25px 20px;
+
+    border-radius:15px;
+
+}
+
+.register-card h2{
+
+    font-size:28px;
+
+}
+
+.form-label{
+
+    font-size:15px;
+
+}
+
+footer{
+
+    font-size:14px;
+
+}
+
+}
+
+
+/* ======================================================
+                EXTRA UTILITIES
+====================================================== */
+
+.text-primary-custom{
+
+    color:var(--primary);
+
+}
+
+.bg-primary-custom{
+
+    background:var(--primary);
+
+}
+
+.rounded-custom{
+
+    border-radius:15px;
+
+}
+
+.shadow-custom{
+
+    box-shadow:var(--shadow);
+
+}
+
+
+/* ======================================================
+                END OF FILE
+====================================================== */

@@ -1,0 +1,1187 @@
+/* ===================================================
+   AASRAA Skillability Centre
+   Computer Application Mock Test Portal
+
+   File : style.css
+   Version : 1.0
+=================================================== */
+
+/* ==========================
+        GOOGLE FONT
+========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ==========================
+        RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f8f9fa;
+
+    color:#333;
+
+    line-height:1.7;
+
+}
+
+/* ==========================
+        VARIABLES
+========================== */
+
+:root{
+
+    --primary:#1E3A5F;
+
+    --secondary:#0d6efd;
+
+    --light:#f8f9fa;
+
+    --white:#ffffff;
+
+    --dark:#212529;
+
+    --gray:#6c757d;
+
+    --shadow:0 10px 30px rgba(0,0,0,.08);
+
+    --radius:15px;
+
+}
+
+/* ==========================
+        COMMON
+========================== */
+
+section{
+
+    padding:80px 0;
+
+}
+
+img{
+
+    max-width:100%;
+
+}
+
+a{
+
+    text-decoration:none;
+
+}
+
+h1,h2,h3,h4,h5{
+
+    font-weight:700;
+
+    color:var(--primary);
+
+}
+
+p{
+
+    color:#555;
+
+}
+
+/* ==========================
+        NAVBAR LOGO
+========================== */
+
+.navbar-logo{
+
+    width:60px;
+
+    height:60px;
+
+    object-fit:contain;
+
+}
+
+.navbar-brand{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.navbar-brand span{
+
+    display:inline-block;
+
+    color:var(--primary);
+
+    font-size:24px;
+
+    font-weight:700;
+
+}
+
+/* ==========================
+        NAVBAR
+========================== */
+
+.navbar{
+
+    background:#fff;
+
+    padding:18px 0;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.05);
+
+}
+
+.navbar-brand{
+
+    color:var(--primary)!important;
+
+    font-size:24px;
+
+    font-weight:700;
+
+}
+
+.navbar-brand i{
+
+    margin-right:8px;
+
+}
+
+.nav-link{
+
+    color:#333!important;
+
+    font-weight:500;
+
+    margin-left:15px;
+
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:var(--secondary)!important;
+
+}
+
+.btn-primary{
+
+    background:var(--primary);
+
+    border:none;
+
+    padding:10px 24px;
+
+    border-radius:10px;
+
+    transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+    background:#274d7b;
+
+    transform:translateY(-2px);
+
+}
+
+.btn-outline-primary{
+
+    border:2px solid var(--primary);
+
+    color:var(--primary);
+
+    border-radius:10px;
+
+    padding:10px 24px;
+
+    transition:.3s;
+
+}
+
+.btn-outline-primary:hover{
+
+    background:var(--primary);
+
+    color:#fff;
+
+}
+
+/* ==========================
+        HERO
+========================== */
+
+/* ==========================
+        HERO
+========================== */
+
+.hero-section{
+
+    position:relative;
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    background:url("/images/image00012.jpeg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    overflow:hidden;
+
+}
+
+.hero-section::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:100%;
+
+    background:rgba(15,35,70,.70);
+
+}
+
+.hero-section .container{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.hero-section h1{
+
+    color:#ffffff;
+
+    font-size:72px;
+
+    line-height:1.2;
+
+    font-weight:700;
+
+}
+
+.hero-section h1 span{
+
+    color:#0d6efd;
+
+}
+
+.hero-section .lead{
+
+    color:#ffffff;
+
+    font-size:22px;
+
+    max-width:650px;
+
+}
+
+.hero-image{
+
+    display:none;
+
+}
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ==========================
+        ABOUT
+========================== */
+
+.about-card{
+
+    background:#fff;
+
+    border-radius:15px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+    height:100%;
+
+}
+
+.about-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.about-card i{
+
+    font-size:50px;
+
+    color:var(--secondary);
+
+    margin-bottom:20px;
+
+}
+
+.about-card h4{
+
+    margin-bottom:15px;
+
+}
+
+/* ==========================
+        SECTION TITLE
+========================== */
+
+section h2{
+
+    margin-bottom:15px;
+
+}
+
+section .text-muted{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+/* ===================================================
+                COURSES SECTION
+=================================================== */
+
+#courses{
+    background:#f8f9fa;
+}
+
+.course-card{
+
+    background:#ffffff;
+
+    border-radius:15px;
+
+    padding:30px 25px;
+
+    text-align:center;
+
+    height:100%;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:all .35s ease;
+
+    border-top:4px solid transparent;
+
+}
+
+.course-card:hover{
+
+    transform:translateY(-8px);
+
+    border-top:4px solid var(--primary);
+
+    box-shadow:0 20px 35px rgba(0,0,0,.12);
+
+}
+
+.course-card i{
+
+    font-size:55px;
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+    display:block;
+
+}
+
+.course-card h5{
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+    color:var(--primary);
+
+}
+
+.course-card p{
+
+    font-size:15px;
+
+    color:#666;
+
+    margin-bottom:0;
+
+}
+
+
+/* ===================================================
+                FEATURES SECTION
+=================================================== */
+
+#features{
+
+    background:#ffffff;
+
+}
+
+.feature-box{
+
+    background:#ffffff;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    text-align:center;
+
+    height:100%;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.feature-box:hover{
+
+    transform:translateY(-8px);
+
+    background:var(--primary);
+
+}
+
+.feature-box:hover h5,
+.feature-box:hover p{
+
+    color:#ffffff;
+
+}
+
+.feature-box:hover i{
+
+    color:#ffffff;
+
+}
+
+.feature-box i{
+
+    font-size:50px;
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+.feature-box h5{
+
+    margin-bottom:15px;
+
+}
+
+.feature-box p{
+
+    color:#666;
+
+    margin-bottom:0;
+
+}
+
+
+/* ===================================================
+                STATISTICS SECTION
+=================================================== */
+
+.stats-section{
+
+    background:var(--primary);
+
+    color:#ffffff;
+
+}
+
+.stats-section h2{
+
+    color:#ffffff;
+
+    font-size:45px;
+
+    font-weight:700;
+
+}
+
+.stats-section p{
+
+    color:#ffffff;
+
+    font-size:18px;
+
+    margin-bottom:0;
+
+}
+
+
+/* ===================================================
+                HOW IT WORKS
+=================================================== */
+
+.step-box{
+
+    background:#ffffff;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.step-box:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.step-number{
+
+    width:70px;
+
+    height:70px;
+
+    background:var(--primary);
+
+    color:#ffffff;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin:0 auto 20px;
+
+    font-size:28px;
+
+    font-weight:bold;
+
+}
+
+.step-box h5{
+
+    margin-bottom:15px;
+
+}
+
+.step-box p{
+
+    color:#666;
+
+}
+
+
+/* ===================================================
+                ICON ANIMATION
+=================================================== */
+
+.course-card i,
+.feature-box i,
+.about-card i{
+
+    transition:.4s;
+
+}
+
+.course-card:hover i,
+.feature-box:hover i,
+.about-card:hover i{
+
+    transform:scale(1.15);
+
+}
+
+
+/* ===================================================
+                CARD ANIMATION
+=================================================== */
+
+.course-card,
+.feature-box,
+.about-card,
+.step-box{
+
+    animation:fadeUp .7s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+/* ===================================================
+                BADGE
+=================================================== */
+
+.badge{
+
+    padding:10px 20px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:500;
+
+}
+
+
+/* ===================================================
+                BUTTON SPACING
+=================================================== */
+
+.hero-section .btn{
+
+    margin-top:15px;
+
+}
+
+
+/* ===================================================
+                COURSE ICON COLORS
+=================================================== */
+
+.bi-filetype-html{
+
+    color:#E44D26;
+
+}
+
+.bi-filetype-css{
+
+    color:#264DE4;
+
+}
+
+.bi-filetype-js{
+
+    color:#F0DB4F;
+
+}
+
+.bi-code-slash{
+
+    color:#306998;
+
+}
+
+.bi-file-earmark-excel{
+
+    color:#1D6F42;
+
+}
+
+.bi-bar-chart-fill{
+
+    color:#F2C811;
+
+}
+
+.bi-pc-display{
+
+    color:#0d6efd;
+
+}
+
+.bi-journal-bookmark-fill{
+
+    color:#dc3545;
+
+}
+/* ===================================================
+                    FAQ SECTION
+=================================================== */
+
+.accordion-item{
+
+    border:none;
+
+    margin-bottom:15px;
+
+    border-radius:12px !important;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.accordion-button{
+
+    font-weight:600;
+
+    padding:20px;
+
+    color:var(--primary);
+
+    background:#ffffff;
+
+}
+
+.accordion-button:not(.collapsed){
+
+    background:var(--primary);
+
+    color:#ffffff;
+
+}
+
+.accordion-button:focus{
+
+    box-shadow:none;
+
+}
+
+.accordion-body{
+
+    padding:20px;
+
+    background:#ffffff;
+
+    color:#555;
+
+}
+
+
+/* ===================================================
+                CALL TO ACTION
+=================================================== */
+
+.cta-section{
+
+    background:linear-gradient(135deg,#1E3A5F,#274d7b);
+
+    color:#ffffff;
+
+}
+
+.cta-section h2{
+
+    color:#ffffff;
+
+}
+
+.cta-section p{
+
+    color:#e9ecef;
+
+    max-width:700px;
+
+    margin:auto;
+
+    margin-bottom:30px;
+
+}
+
+.cta-section .btn{
+
+    min-width:180px;
+
+    border-radius:10px;
+
+    padding:12px 25px;
+
+    font-weight:600;
+
+}
+
+.cta-section .btn-outline-light:hover{
+
+    color:var(--primary);
+
+}
+
+
+/* ===================================================
+                    FOOTER
+=================================================== */
+
+.footer-section{
+
+    background:#172A45;
+
+    color:#ffffff;
+
+    padding:60px 0 20px;
+
+}
+
+.footer-section h4,
+.footer-section h5{
+
+    color:#ffffff;
+
+    margin-bottom:20px;
+
+}
+
+.footer-section p{
+
+    color:#d6d6d6;
+
+}
+
+.footer-section ul{
+
+    padding-left:0;
+
+}
+
+.footer-section ul li{
+
+    list-style:none;
+
+    margin-bottom:12px;
+
+}
+
+.footer-section a{
+
+    color:#d6d6d6;
+
+    transition:.3s;
+
+}
+
+.footer-section a:hover{
+
+    color:#ffffff;
+
+    padding-left:5px;
+
+}
+
+.footer-section hr{
+
+    border-color:rgba(255,255,255,.15);
+
+    margin:35px 0 20px;
+
+}
+
+.footer-section i{
+
+    color:#0d6efd;
+
+    margin-right:10px;
+
+}
+
+
+/* ===================================================
+                    SCROLLBAR
+=================================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#eeeeee;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#1E3A5F;
+
+    border-radius:10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#274d7b;
+
+}
+
+
+/* ===================================================
+                IMAGE SETTINGS
+=================================================== */
+
+.hero-image{
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+img{
+
+    user-select:none;
+
+}
+
+
+/* ===================================================
+                SHADOW UTILITIES
+=================================================== */
+
+.shadow-soft{
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.shadow-hover{
+
+    transition:.35s;
+
+}
+
+.shadow-hover:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+
+}
+
+
+/* ===================================================
+                    RESPONSIVE
+=================================================== */
+
+@media (max-width:991px){
+
+.hero-section{
+
+    text-align:center;
+
+    min-height:auto;
+
+    padding:80px 0;
+
+}
+
+.hero-section h1{
+
+    font-size:42px;
+
+}
+
+.hero-image{
+
+    margin-top:40px;
+
+    width:80%;
+
+}
+
+.navbar-nav{
+
+    margin-top:20px;
+
+    text-align:center;
+
+}
+
+.nav-item{
+
+    margin-bottom:10px;
+
+}
+
+}
+
+
+@media (max-width:768px){
+
+.hero-section h1{
+
+    font-size:34px;
+
+}
+
+.display-4{
+
+    font-size:34px;
+
+}
+
+section{
+
+    padding:60px 0;
+
+}
+
+.course-card,
+.feature-box,
+.about-card,
+.step-box{
+
+    margin-bottom:20px;
+
+}
+
+.stats-section h2{
+
+    font-size:34px;
+
+}
+
+.cta-section .btn{
+
+    display:block;
+
+    width:100%;
+
+    margin-bottom:15px;
+
+}
+
+}
+
+
+@media (max-width:576px){
+
+.hero-section{
+
+    padding-top:60px;
+
+}
+
+.hero-section h1{
+
+    font-size:28px;
+
+}
+
+.lead{
+
+    font-size:16px;
+
+}
+
+.navbar-brand{
+
+    font-size:18px;
+
+}
+
+.about-card,
+.course-card,
+.feature-box,
+.step-box{
+
+    padding:25px;
+
+}
+
+.stats-section h2{
+
+    font-size:28px;
+
+}
+
+.footer-section{
+
+    text-align:center;
+
+}
+
+.footer-section i{
+
+    margin-right:6px;
+
+}
+
+}
+
+
+/* ===================================================
+                    END OF FILE
+=================================================== */

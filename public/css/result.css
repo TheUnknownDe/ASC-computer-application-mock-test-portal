@@ -1,0 +1,594 @@
+/* ===========================
+   Global
+=========================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    background:#f4f7fb;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    min-height:100vh;
+
+}
+
+/* ===========================
+   Result Header
+=========================== */
+
+.result-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+    margin-bottom:25px;
+
+}
+
+.result-header h2{
+
+    color:#0d6efd;
+
+    font-weight:bold;
+
+}
+
+.result-header p{
+
+    font-size:15px;
+
+}
+
+/* ===========================
+   Student Card
+=========================== */
+
+.result-card{
+
+    border:none;
+
+    border-radius:15px;
+
+    transition:.3s;
+
+}
+
+.result-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+.student-avatar{
+
+    width:120px;
+
+    height:120px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:5px solid #0d6efd;
+
+}
+
+.result-card h4{
+
+    font-weight:bold;
+
+    margin-top:15px;
+
+}
+
+.result-card h5{
+
+    font-weight:bold;
+
+}
+
+/* ===========================
+   Summary Cards
+=========================== */
+
+.summary-card{
+
+    border:none;
+
+    border-radius:15px;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+.summary-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+.summary-card h6{
+
+    margin-top:10px;
+
+    font-weight:600;
+
+}
+
+.summary-card h3{
+
+    color:#0d6efd;
+
+    font-weight:bold;
+
+}/* ===========================
+   Final Result Card
+=========================== */
+
+.score-circle{
+
+    width:220px;
+
+    height:220px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#0d6efd,#4dabf7);
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#ffffff;
+
+    box-shadow:0 10px 25px rgba(13,110,253,.30);
+
+}
+
+.score-circle h1{
+
+    font-size:42px;
+
+    font-weight:bold;
+
+    margin-bottom:10px;
+
+}
+
+.score-circle p{
+
+    font-size:18px;
+
+    margin:0;
+
+}
+
+/* ===========================
+   Result Summary
+=========================== */
+
+.card h3{
+
+    font-weight:bold;
+
+    color:#0d6efd;
+
+}
+
+.card h6{
+
+    font-weight:600;
+
+    margin-bottom:8px;
+
+}
+
+#timeTaken,
+#performanceMessage{
+
+    font-size:18px;
+
+    margin-bottom:0;
+
+}
+
+/* ===========================
+   Result Status
+=========================== */
+
+#resultStatus{
+
+    min-width:120px;
+
+    text-align:center;
+
+}
+
+.pass{
+
+    background:#198754 !important;
+
+    color:#ffffff;
+
+}
+
+.fail{
+
+    background:#dc3545 !important;
+
+    color:#ffffff;
+
+}
+
+/* ===========================
+   Grade Badge
+=========================== */
+
+#grade{
+
+    min-width:80px;
+
+    text-align:center;
+
+    font-weight:bold;
+
+}
+
+/* ===========================
+   Progress Bar
+=========================== */
+
+.progress{
+
+    height:25px;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+    background:#e9ecef;
+
+}
+
+.progress-bar{
+
+    font-size:15px;
+
+    font-weight:bold;
+
+}/* ===========================
+   Action Buttons
+=========================== */
+
+.btn{
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+#retryQuizBtn{
+
+    background:#ffc107;
+
+    border:none;
+
+    color:#212529;
+
+}
+
+#retryQuizBtn:hover{
+
+    background:#ffca2c;
+
+}
+
+#viewHistoryBtn{
+
+    background:#0dcaf0;
+
+    border:none;
+
+}
+
+#viewHistoryBtn:hover{
+
+    background:#31d2f2;
+
+}
+
+#dashboardBtn,
+#dashboardBtn2{
+
+    min-width:170px;
+
+}
+
+#certificateBtn{
+
+    border:none;
+
+}
+
+#printResultBtn{
+
+    border:none;
+
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+
+    margin-top:40px;
+
+}
+
+footer p{
+
+    font-weight:600;
+
+    color:#212529;
+
+}
+
+footer small{
+
+    color:#6c757d;
+
+}
+
+/* ===========================
+   Card Animation
+=========================== */
+
+.result-card,
+.summary-card,
+.card{
+
+    animation:fadeIn .5s ease;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}/* ===========================
+   Responsive Design
+=========================== */
+
+@media(max-width:992px){
+
+    .result-header{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+    #dashboardBtn{
+
+        width:100%;
+
+    }
+
+    .score-circle{
+
+        width:180px;
+
+        height:180px;
+
+    }
+
+    .score-circle h1{
+
+        font-size:34px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .student-avatar{
+
+        width:90px;
+
+        height:90px;
+
+    }
+
+    .summary-card{
+
+        margin-bottom:15px;
+
+    }
+
+    .score-circle{
+
+        width:170px;
+
+        height:170px;
+
+    }
+
+    .score-circle h1{
+
+        font-size:30px;
+
+    }
+
+    .score-circle p{
+
+        font-size:16px;
+
+    }
+
+    .progress{
+
+        height:20px;
+
+    }
+
+    .progress-bar{
+
+        font-size:13px;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .result-header h2{
+
+        font-size:24px;
+
+    }
+
+    .result-card h4{
+
+        font-size:20px;
+
+    }
+
+    .summary-card h3{
+
+        font-size:26px;
+
+    }
+
+    .score-circle{
+
+        width:150px;
+
+        height:150px;
+
+    }
+
+    .score-circle h1{
+
+        font-size:26px;
+
+    }
+
+    .score-circle p{
+
+        font-size:15px;
+
+    }
+
+    #performanceMessage{
+
+        font-size:16px;
+
+    }
+
+    footer{
+
+        text-align:center;
+
+    }
+
+}
+
+/* ===========================
+   Print Style
+=========================== */
+
+@media print{
+
+    body{
+
+        background:#ffffff;
+
+    }
+
+    #dashboardBtn,
+    #dashboardBtn2,
+    #retryQuizBtn,
+    #viewHistoryBtn,
+    #certificateBtn,
+    #printResultBtn{
+
+        display:none !important;
+
+    }
+
+    .card{
+
+        box-shadow:none !important;
+
+        border:1px solid #cccccc !important;
+
+    }
+
+    footer{
+
+        margin-top:20px;
+
+    }
+
+}

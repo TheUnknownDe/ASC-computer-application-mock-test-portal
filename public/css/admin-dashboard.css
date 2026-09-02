@@ -1,0 +1,330 @@
+/*=========================================================
+        AASRAA Skillability Centre
+        Admin Dashboard CSS
+=========================================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:"Poppins",sans-serif;
+
+    background:#f5f7fb;
+
+    color:#333;
+
+}
+
+/* ==========================================
+        NAVBAR
+========================================== */
+
+.navbar{
+
+    background:#0d6efd;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+
+}
+
+.navbar-brand{
+
+    color:#fff !important;
+
+    font-size:1.4rem;
+
+    font-weight:600;
+
+}
+
+.navbar .nav-link{
+
+    color:#fff !important;
+
+    font-weight:500;
+
+}
+
+.navbar .btn{
+
+    border-radius:8px;
+
+}
+
+/* ==========================================
+        HEADER
+========================================== */
+
+.dashboard-header{
+
+    background:#fff;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 3px 15px rgba(0,0,0,.08);
+
+    margin-top:30px;
+
+    margin-bottom:30px;
+
+}
+
+.dashboard-header h2{
+
+    font-weight:700;
+
+}
+
+.dashboard-header p{
+
+    color:#666;
+
+}
+
+/* ==========================================
+        STATISTICS CARDS
+========================================== */
+
+.stat-card{
+
+    border:none;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    overflow:hidden;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.stat-card .card-body{
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+.stat-card i{
+
+    font-size:45px;
+
+    margin-bottom:15px;
+
+}
+
+.stat-card h6{
+
+    color:#666;
+
+    margin-bottom:10px;
+
+}
+
+.stat-card h2{
+
+    font-weight:700;
+
+}
+
+/* ==========================================
+        QUICK ACTION
+========================================== */
+
+.quick-card{
+
+    border:none;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.quick-card .card-header{
+
+    background:#0d6efd;
+
+    color:#fff;
+
+    font-weight:600;
+
+}
+
+.quick-card .btn{
+
+    margin-bottom:15px;
+
+    border-radius:10px;
+
+    font-weight:500;
+
+}
+
+/* ==========================================
+        RECENT RESULTS
+========================================== */
+
+.result-card{
+
+    border:none;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.result-card .card-header{
+
+    background:#0d6efd;
+
+    color:#fff;
+
+    font-weight:600;
+
+}
+
+.table{
+
+    margin-bottom:0;
+
+}
+
+.table thead{
+
+    background:#0d6efd;
+
+    color:#fff;
+
+}
+
+.table th{
+
+    white-space:nowrap;
+
+    text-align:center;
+
+}
+
+.table td{
+
+    text-align:center;
+
+    vertical-align:middle;
+
+}
+
+/* ==========================================
+        STATUS
+========================================== */
+
+.status-pass{
+
+    background:#198754;
+
+    color:#fff;
+
+    padding:6px 15px;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+}
+
+.status-fail{
+
+    background:#dc3545;
+
+    color:#fff;
+
+    padding:6px 15px;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+}
+
+/* ==========================================
+        FOOTER
+========================================== */
+
+footer{
+
+    margin-top:60px;
+
+    padding:25px;
+
+    background:#fff;
+
+    border-top:1px solid #ddd;
+
+}
+
+footer p{
+
+    margin-bottom:5px;
+
+    font-weight:500;
+
+}
+
+/* ==========================================
+        RESPONSIVE
+========================================== */
+
+@media(max-width:991px){
+
+    .dashboard-header{
+
+        text-align:center;
+
+    }
+
+    .quick-card{
+
+        margin-top:30px;
+
+    }
+
+}
+
+@media(max-width:767px){
+
+    .stat-card{
+
+        margin-bottom:20px;
+
+    }
+
+    .dashboard-header{
+
+        padding:20px;
+
+    }
+
+    .dashboard-header h2{
+
+        font-size:24px;
+
+    }
+
+}

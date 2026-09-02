@@ -1,0 +1,20 @@
+{
+  "name": "computer-application-mock-test",
+  "version": "1.0.0",
+  "description": "Computer Application Mock Test Portal - Aasraa Skillability Centre",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Gopal Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "mongoose": "^9.9.1",
+    "nodemailer": "^9.0.6"
+  }
+}

@@ -1,0 +1,507 @@
+/* ===========================
+   Global
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#f4f7fb;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    min-height:100vh;
+
+}
+
+/* ===========================
+   Header
+=========================== */
+
+.history-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+    margin-bottom:25px;
+
+}
+
+.history-header h2{
+
+    font-weight:bold;
+
+    color:#0d6efd;
+
+}
+
+.history-header p{
+
+    font-size:15px;
+
+}
+
+/* ===========================
+   Student Card
+=========================== */
+
+.student-card{
+
+    border-radius:15px;
+
+    transition:.3s;
+
+}
+
+.student-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.student-avatar{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:5px solid #0d6efd;
+
+}
+
+.student-card h4{
+
+    margin-top:15px;
+
+    font-weight:bold;
+
+}
+
+.student-card p{
+
+    font-size:15px;
+
+}
+
+/* ===========================
+   Analytics Cards
+=========================== */
+
+.analytics-card{
+
+    border:none;
+
+    border-radius:15px;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+.analytics-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+.analytics-card h5{
+
+    font-size:18px;
+
+    margin-top:10px;
+
+}
+
+.analytics-card h2{
+
+    margin-top:10px;
+
+    font-weight:bold;
+
+    color:#0d6efd;
+
+}/* ===========================
+   Search & Filter Section
+=========================== */
+
+.card{
+
+    border-radius:15px;
+
+}
+
+.form-label{
+
+    font-weight:600;
+
+}
+
+.form-control,
+.form-select{
+
+    height:48px;
+
+    border-radius:10px;
+
+    transition:.3s;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+    border-color:#0d6efd;
+
+    box-shadow:0 0 8px rgba(13,110,253,.25);
+
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+.btn{
+
+    border-radius:10px;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+#exportBtn{
+
+    background:#198754;
+
+    border:none;
+
+}
+
+#clearHistoryBtn{
+
+    background:#dc3545;
+
+    border:none;
+
+}
+
+#dashboardBtn{
+
+    min-width:150px;
+
+}
+
+#startQuizBtn{
+
+    min-width:180px;
+
+}
+
+/* ===========================
+   History Table
+=========================== */
+
+.table{
+
+    margin-bottom:0;
+
+}
+
+.table thead th{
+
+    text-align:center;
+
+    vertical-align:middle;
+
+    white-space:nowrap;
+
+}
+
+.table tbody td{
+
+    text-align:center;
+
+    vertical-align:middle;
+
+}
+
+.table-hover tbody tr:hover{
+
+    background:#eef5ff;
+
+}
+
+.table-responsive{
+
+    border-radius:10px;
+
+}
+
+/* ===========================
+   Status Badge
+=========================== */
+
+.status-pass{
+
+    background:#198754;
+
+    color:#fff;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.status-fail{
+
+    background:#dc3545;
+
+    color:#fff;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+/* ===========================
+   Action Button
+=========================== */
+
+.action-btn{
+
+    width:38px;
+
+    height:38px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#0d6efd;
+
+    color:#fff;
+
+    transition:.3s;
+
+}
+
+.action-btn:hover{
+
+    background:#0b5ed7;
+
+    transform:scale(1.1);
+
+}/* ===========================
+   Empty History
+=========================== */
+
+#emptyHistory{
+
+    background:#ffffff;
+
+    border-radius:15px;
+
+    margin-top:30px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+#emptyHistory i{
+
+    color:#adb5bd;
+
+}
+
+#emptyHistory h3{
+
+    font-weight:bold;
+
+    color:#343a40;
+
+}
+
+#emptyHistory p{
+
+    font-size:16px;
+
+    color:#6c757d;
+
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+
+    background:#ffffff;
+
+    margin-top:40px;
+
+    border-top:1px solid #dee2e6;
+
+}
+
+footer p{
+
+    font-weight:600;
+
+    color:#212529;
+
+}
+
+footer small{
+
+    color:#6c757d;
+
+}
+
+/* ===========================
+   Animation
+=========================== */
+
+.student-card,
+.analytics-card,
+.card{
+
+    animation:fadeIn .5s ease;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(15px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:992px){
+
+    .history-header{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+    #dashboardBtn{
+
+        width:100%;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .student-avatar{
+
+        width:90px;
+
+        height:90px;
+
+    }
+
+    .analytics-card{
+
+        margin-bottom:15px;
+
+    }
+
+    .table{
+
+        font-size:14px;
+
+    }
+
+    .form-control,
+    .form-select,
+    .btn{
+
+        width:100%;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .history-header h2{
+
+        font-size:24px;
+
+    }
+
+    .student-card h4{
+
+        font-size:20px;
+
+    }
+
+    .analytics-card h2{
+
+        font-size:28px;
+
+    }
+
+    .table{
+
+        font-size:13px;
+
+    }
+
+}

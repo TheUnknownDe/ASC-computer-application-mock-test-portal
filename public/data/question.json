@@ -1,0 +1,7814 @@
+{
+  "python": [
+    {
+      "id": 1,
+      "question": "Which keyword is used to define a function in Python?",
+      "options": [
+        "function",
+        "define",
+        "def",
+        "func"
+      ],
+      "answer": "def",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 2,
+      "question": "Which symbol is used for comments in Python?",
+      "options": [
+        "//",
+        "#",
+        "/* */",
+        "--"
+      ],
+      "answer": "#",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 3,
+      "question": "Which data type is used to store True or False values?",
+      "options": [
+        "String",
+        "Integer",
+        "Boolean",
+        "Float"
+      ],
+      "answer": "Boolean",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 4,
+      "question": "Which function is used to display output in Python?",
+      "options": [
+        "display()",
+        "echo()",
+        "print()",
+        "show()"
+      ],
+      "answer": "print()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 5,
+      "question": "Which function is used to take input from the user?",
+      "options": [
+        "scan()",
+        "read()",
+        "input()",
+        "accept()"
+      ],
+      "answer": "input()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a mutable data type?",
+      "options": [
+        "Tuple",
+        "String",
+        "List",
+        "Integer"
+      ],
+      "answer": "List",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 7,
+      "question": "Which operator is used for exponentiation?",
+      "options": [
+        "^",
+        "**",
+        "//",
+        "%"
+      ],
+      "answer": "**",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 8,
+      "question": "What is the output of len('Python')?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "6",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 9,
+      "question": "Which loop is used when the number of iterations is known?",
+      "options": [
+        "while",
+        "for",
+        "loop",
+        "repeat"
+      ],
+      "answer": "for",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 10,
+      "question": "Which keyword is used to exit a loop immediately?",
+      "options": [
+        "stop",
+        "break",
+        "exit",
+        "continue"
+      ],
+      "answer": "break",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 11,
+      "question": "Which keyword skips the current iteration of a loop?",
+      "options": [
+        "break",
+        "pass",
+        "continue",
+        "next"
+      ],
+      "answer": "continue",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 12,
+      "question": "Which keyword is used to define a class?",
+      "options": [
+        "class",
+        "Class",
+        "object",
+        "define"
+      ],
+      "answer": "class",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is an immutable data type?",
+      "options": [
+        "List",
+        "Dictionary",
+        "Tuple",
+        "Set"
+      ],
+      "answer": "Tuple",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 14,
+      "question": "Which method adds an element at the end of a list?",
+      "options": [
+        "insert()",
+        "append()",
+        "add()",
+        "push()"
+      ],
+      "answer": "append()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 15,
+      "question": "Which method removes the last element from a list?",
+      "options": [
+        "delete()",
+        "pop()",
+        "remove()",
+        "clear()"
+      ],
+      "answer": "pop()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 16,
+      "question": "Which collection stores key-value pairs?",
+      "options": [
+        "List",
+        "Tuple",
+        "Dictionary",
+        "Set"
+      ],
+      "answer": "Dictionary",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 17,
+      "question": "Which keyword is used for conditional statements?",
+      "options": [
+        "if",
+        "when",
+        "case",
+        "switch"
+      ],
+      "answer": "if",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 18,
+      "question": "What is the output type of 10 / 2 in Python 3?",
+      "options": [
+        "int",
+        "float",
+        "string",
+        "boolean"
+      ],
+      "answer": "float",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 19,
+      "question": "Which keyword is used to handle exceptions?",
+      "options": [
+        "catch",
+        "try",
+        "error",
+        "handle"
+      ],
+      "answer": "try",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 20,
+      "question": "Which block executes if no exception occurs?",
+      "options": [
+        "except",
+        "finally",
+        "else",
+        "pass"
+      ],
+      "answer": "else",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 21,
+      "question": "Which function converts a string into an integer?",
+      "options": [
+        "str()",
+        "float()",
+        "int()",
+        "number()"
+      ],
+      "answer": "int()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 22,
+      "question": "Which function returns the data type of a variable?",
+      "options": [
+        "typeof()",
+        "datatype()",
+        "type()",
+        "class()"
+      ],
+      "answer": "type()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 23,
+      "question": "Which keyword creates an anonymous function?",
+      "options": [
+        "lambda",
+        "anonymous",
+        "func",
+        "def"
+      ],
+      "answer": "lambda",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 24,
+      "question": "Which module is commonly used to generate random numbers?",
+      "options": [
+        "math",
+        "random",
+        "time",
+        "os"
+      ],
+      "answer": "random",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 25,
+      "question": "Which statement is used to import a module?",
+      "options": [
+        "include",
+        "using",
+        "import",
+        "require"
+      ],
+      "answer": "import",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 26,
+      "question": "Which function is used to find the maximum value in Python?",
+      "options": [
+        "maximum()",
+        "max()",
+        "highest()",
+        "large()"
+      ],
+      "answer": "max()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 27,
+      "question": "Which function returns the minimum value?",
+      "options": [
+        "minimum()",
+        "min()",
+        "small()",
+        "lowest()"
+      ],
+      "answer": "min()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 28,
+      "question": "Which function returns the length of a list?",
+      "options": [
+        "count()",
+        "length()",
+        "size()",
+        "len()"
+      ],
+      "answer": "len()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 29,
+      "question": "Which operator is used for floor division?",
+      "options": [
+        "/",
+        "//",
+        "%",
+        "**"
+      ],
+      "answer": "//",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 30,
+      "question": "Which operator returns the remainder of a division?",
+      "options": [
+        "/",
+        "%",
+        "//",
+        "*"
+      ],
+      "answer": "%",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 31,
+      "question": "Which keyword is used to create a loop that runs while a condition is true?",
+      "options": [
+        "for",
+        "repeat",
+        "while",
+        "loop"
+      ],
+      "answer": "while",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 32,
+      "question": "Which function converts a value to a floating-point number?",
+      "options": [
+        "float()",
+        "decimal()",
+        "double()",
+        "real()"
+      ],
+      "answer": "float()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 33,
+      "question": "Which function converts a value to a string?",
+      "options": [
+        "char()",
+        "string()",
+        "str()",
+        "text()"
+      ],
+      "answer": "str()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 34,
+      "question": "Which collection type does not allow duplicate values?",
+      "options": [
+        "List",
+        "Tuple",
+        "Dictionary",
+        "Set"
+      ],
+      "answer": "Set",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 35,
+      "question": "Which method is used to remove all elements from a list?",
+      "options": [
+        "delete()",
+        "remove()",
+        "clear()",
+        "empty()"
+      ],
+      "answer": "clear()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 36,
+      "question": "Which keyword is used to define an anonymous function?",
+      "options": [
+        "lambda",
+        "def",
+        "anonymous",
+        "func"
+      ],
+      "answer": "lambda",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 37,
+      "question": "Which built-in function sorts a list without changing the original list?",
+      "options": [
+        "sort()",
+        "sorted()",
+        "arrange()",
+        "order()"
+      ],
+      "answer": "sorted()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 38,
+      "question": "Which method sorts a list in place?",
+      "options": [
+        "sorted()",
+        "sort()",
+        "order()",
+        "arrange()"
+      ],
+      "answer": "sort()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 39,
+      "question": "Which keyword is used to inherit a class?",
+      "options": [
+        "extends",
+        "inherits",
+        "class",
+        "None of these"
+      ],
+      "answer": "None of these",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 40,
+      "question": "Which statement is correct for creating a class named Student?",
+      "options": [
+        "Student class:",
+        "class Student:",
+        "create Student:",
+        "new Student:"
+      ],
+      "answer": "class Student:",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 41,
+      "question": "Which keyword refers to the current object inside a class?",
+      "options": [
+        "this",
+        "self",
+        "current",
+        "object"
+      ],
+      "answer": "self",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 42,
+      "question": "Which module is commonly used for mathematical functions?",
+      "options": [
+        "random",
+        "math",
+        "time",
+        "os"
+      ],
+      "answer": "math",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 43,
+      "question": "Which module is commonly used for file and directory operations?",
+      "options": [
+        "sys",
+        "os",
+        "math",
+        "random"
+      ],
+      "answer": "os",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 44,
+      "question": "Which file mode is used to read a file?",
+      "options": [
+        "w",
+        "a",
+        "r",
+        "x"
+      ],
+      "answer": "r",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 45,
+      "question": "Which file mode is used to write a file?",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "rb"
+      ],
+      "answer": "w",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 46,
+      "question": "Which method reads the entire contents of a file?",
+      "options": [
+        "read()",
+        "readline()",
+        "readlines()",
+        "get()"
+      ],
+      "answer": "read()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 47,
+      "question": "Which method reads one line at a time from a file?",
+      "options": [
+        "read()",
+        "readline()",
+        "next()",
+        "getline()"
+      ],
+      "answer": "readline()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 48,
+      "question": "Which keyword is used to stop the execution of a function and return a value?",
+      "options": [
+        "break",
+        "continue",
+        "return",
+        "yield"
+      ],
+      "answer": "return",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 49,
+      "question": "Which statement is used to handle multiple conditions?",
+      "options": [
+        "switch",
+        "elif",
+        "case",
+        "select"
+      ],
+      "answer": "elif",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 50,
+      "question": "What is the output of type(10)?",
+      "options": [
+        "<class 'int'>",
+        "<class 'float'>",
+        "<class 'str'>",
+        "<class 'number'>"
+      ],
+      "answer": "<class 'int'>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 51,
+      "question": "Which function is used to open a file in Python?",
+      "options": [
+        "file()",
+        "open()",
+        "read()",
+        "load()"
+      ],
+      "answer": "open()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 52,
+      "question": "Which file mode opens a file for appending data?",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answer": "a",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 53,
+      "question": "Which keyword is used to handle exceptions in Python?",
+      "options": [
+        "catch",
+        "try",
+        "error",
+        "handle"
+      ],
+      "answer": "try",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 54,
+      "question": "Which block always executes whether an exception occurs or not?",
+      "options": [
+        "except",
+        "finally",
+        "else",
+        "pass"
+      ],
+      "answer": "finally",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 55,
+      "question": "Which module is commonly used to work with CSV files?",
+      "options": [
+        "excel",
+        "csv",
+        "table",
+        "sheet"
+      ],
+      "answer": "csv",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 56,
+      "question": "Which method writes a single row to a CSV file?",
+      "options": [
+        "writerow()",
+        "write()",
+        "append()",
+        "insert()"
+      ],
+      "answer": "writerow()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 57,
+      "question": "Which function creates a range of numbers?",
+      "options": [
+        "list()",
+        "numbers()",
+        "range()",
+        "series()"
+      ],
+      "answer": "range()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 58,
+      "question": "Which method removes a specific value from a list?",
+      "options": [
+        "pop()",
+        "remove()",
+        "delete()",
+        "discard()"
+      ],
+      "answer": "remove()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 59,
+      "question": "Which list method inserts an element at a specific position?",
+      "options": [
+        "append()",
+        "extend()",
+        "insert()",
+        "add()"
+      ],
+      "answer": "insert()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 60,
+      "question": "Which method combines two lists?",
+      "options": [
+        "join()",
+        "append()",
+        "extend()",
+        "merge()"
+      ],
+      "answer": "extend()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 61,
+      "question": "Which keyword is used to create a generator function?",
+      "options": [
+        "yield",
+        "return",
+        "generator",
+        "lambda"
+      ],
+      "answer": "yield",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 62,
+      "question": "Which built-in function returns both index and value while looping?",
+      "options": [
+        "enumerate()",
+        "index()",
+        "count()",
+        "iterate()"
+      ],
+      "answer": "enumerate()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 63,
+      "question": "Which function is used to combine two sequences element by element?",
+      "options": [
+        "combine()",
+        "zip()",
+        "pair()",
+        "merge()"
+      ],
+      "answer": "zip()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 64,
+      "question": "Which function returns the absolute value of a number?",
+      "options": [
+        "abs()",
+        "absolute()",
+        "fabs()",
+        "positive()"
+      ],
+      "answer": "abs()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 65,
+      "question": "Which keyword is used to delete a variable?",
+      "options": [
+        "remove",
+        "delete",
+        "del",
+        "clear"
+      ],
+      "answer": "del",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 66,
+      "question": "Which operator checks whether two values are equal?",
+      "options": [
+        "=",
+        "==",
+        "!=",
+        "==="
+      ],
+      "answer": "==",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 67,
+      "question": "Which operator checks if two variables refer to the same object?",
+      "options": [
+        "==",
+        "is",
+        "in",
+        "="
+      ],
+      "answer": "is",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 68,
+      "question": "Which operator checks whether a value exists in a sequence?",
+      "options": [
+        "has",
+        "contains",
+        "in",
+        "exists"
+      ],
+      "answer": "in",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 69,
+      "question": "Which keyword is used to skip writing code inside a block?",
+      "options": [
+        "continue",
+        "pass",
+        "break",
+        "skip"
+      ],
+      "answer": "pass",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 70,
+      "question": "Which Python collection stores unique unordered values?",
+      "options": [
+        "List",
+        "Tuple",
+        "Dictionary",
+        "Set"
+      ],
+      "answer": "Set",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 71,
+      "question": "Which method adds an item to a set?",
+      "options": [
+        "append()",
+        "insert()",
+        "add()",
+        "push()"
+      ],
+      "answer": "add()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 72,
+      "question": "Which method removes an arbitrary element from a set?",
+      "options": [
+        "remove()",
+        "discard()",
+        "pop()",
+        "delete()"
+      ],
+      "answer": "pop()",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 73,
+      "question": "Which statement creates an empty dictionary?",
+      "options": [
+        "{}",
+        "[]",
+        "()",
+        "set()"
+      ],
+      "answer": "{}",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 74,
+      "question": "Which dictionary method returns all keys?",
+      "options": [
+        "keys()",
+        "values()",
+        "items()",
+        "getkeys()"
+      ],
+      "answer": "keys()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 75,
+      "question": "Which dictionary method returns both keys and values?",
+      "options": [
+        "keys()",
+        "values()",
+        "items()",
+        "pairs()"
+      ],
+      "answer": "items()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 76,
+      "question": "Which dictionary method returns all values?",
+      "options": [
+        "keys()",
+        "items()",
+        "values()",
+        "get()"
+      ],
+      "answer": "values()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 77,
+      "question": "Which method is used to access a value safely from a dictionary?",
+      "options": [
+        "value()",
+        "get()",
+        "fetch()",
+        "read()"
+      ],
+      "answer": "get()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 78,
+      "question": "Which statement creates an empty list?",
+      "options": [
+        "{}",
+        "()",
+        "[]",
+        "list{}"
+      ],
+      "answer": "[]",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 79,
+      "question": "Which statement creates an empty tuple?",
+      "options": [
+        "[]",
+        "{}",
+        "()",
+        "tuple[]"
+      ],
+      "answer": "()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 80,
+      "question": "Which function is used to round a number?",
+      "options": [
+        "round()",
+        "ceil()",
+        "floor()",
+        "approx()"
+      ],
+      "answer": "round()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 81,
+      "question": "Which module is used to work with dates and time?",
+      "options": [
+        "calendar",
+        "datetime",
+        "clock",
+        "date"
+      ],
+      "answer": "datetime",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 82,
+      "question": "Which keyword creates a custom exception?",
+      "options": [
+        "raise",
+        "throw",
+        "error",
+        "except"
+      ],
+      "answer": "raise",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 83,
+      "question": "Which function converts an iterable into a list?",
+      "options": [
+        "array()",
+        "tuple()",
+        "list()",
+        "convert()"
+      ],
+      "answer": "list()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 84,
+      "question": "Which function converts an iterable into a tuple?",
+      "options": [
+        "tuple()",
+        "list()",
+        "set()",
+        "dict()"
+      ],
+      "answer": "tuple()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 85,
+      "question": "Which function converts an iterable into a set?",
+      "options": [
+        "set()",
+        "list()",
+        "tuple()",
+        "dict()"
+      ],
+      "answer": "set()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 86,
+      "question": "Which built-in function executes Python code from a string?",
+      "options": [
+        "run()",
+        "exec()",
+        "execute()",
+        "compile()"
+      ],
+      "answer": "exec()",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 87,
+      "question": "Which function evaluates a Python expression from a string?",
+      "options": [
+        "eval()",
+        "exec()",
+        "run()",
+        "parse()"
+      ],
+      "answer": "eval()",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 88,
+      "question": "Which keyword is used to import a specific function from a module?",
+      "options": [
+        "include",
+        "from",
+        "using",
+        "require"
+      ],
+      "answer": "from",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 89,
+      "question": "Which statement imports only the sqrt function from the math module?",
+      "options": [
+        "import sqrt",
+        "from math import sqrt",
+        "math.sqrt import",
+        "include math.sqrt"
+      ],
+      "answer": "from math import sqrt",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 90,
+      "question": "Which function returns the number of elements in a collection?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "total()"
+      ],
+      "answer": "len()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 91,
+      "question": "Which operator is used for logical AND?",
+      "options": [
+        "&&",
+        "&",
+        "and",
+        "AND"
+      ],
+      "answer": "and",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 92,
+      "question": "Which operator is used for logical OR?",
+      "options": [
+        "||",
+        "|",
+        "or",
+        "OR"
+      ],
+      "answer": "or",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 93,
+      "question": "Which operator is used for logical NOT?",
+      "options": [
+        "!",
+        "~",
+        "not",
+        "NOT"
+      ],
+      "answer": "not",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 94,
+      "question": "Which loop is best suited when the number of iterations is unknown?",
+      "options": [
+        "for",
+        "while",
+        "foreach",
+        "repeat"
+      ],
+      "answer": "while",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 95,
+      "question": "Which function returns the Unicode value of a character?",
+      "options": [
+        "chr()",
+        "ascii()",
+        "ord()",
+        "unicode()"
+      ],
+      "answer": "ord()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 96,
+      "question": "Which function returns the character for a Unicode value?",
+      "options": [
+        "ord()",
+        "ascii()",
+        "chr()",
+        "char()"
+      ],
+      "answer": "chr()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 97,
+      "question": "Which keyword is used to define an asynchronous function?",
+      "options": [
+        "async",
+        "await",
+        "thread",
+        "parallel"
+      ],
+      "answer": "async",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 98,
+      "question": "Which keyword is used to wait for an asynchronous operation?",
+      "options": [
+        "wait",
+        "pause",
+        "await",
+        "yield"
+      ],
+      "answer": "await",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 99,
+      "question": "Which built-in function returns the memory address (identity) of an object?",
+      "options": [
+        "memory()",
+        "id()",
+        "address()",
+        "ref()"
+      ],
+      "answer": "id()",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 100,
+      "question": "Which special variable contains the name of the current module?",
+      "options": [
+        "__module__",
+        "__file__",
+        "__name__",
+        "__main__"
+      ],
+      "answer": "__name__",
+      "difficulty": "Hard",
+      "marks": 1
+    }
+  ],
+  "html": [
+    {
+      "id": 1,
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Text Machine Language",
+        "Hyper Transfer Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "answer": "Hyper Text Markup Language",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 2,
+      "question": "Which HTML tag is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": "<a>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 3,
+      "question": "Which tag is used to insert an image in HTML?",
+      "options": [
+        "<img>",
+        "<image>",
+        "<picture>",
+        "<src>"
+      ],
+      "answer": "<img>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 4,
+      "question": "Which attribute specifies the image path?",
+      "options": [
+        "href",
+        "src",
+        "alt",
+        "link"
+      ],
+      "answer": "src",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 5,
+      "question": "Which HTML tag creates the largest heading?",
+      "options": [
+        "<h1>",
+        "<h6>",
+        "<head>",
+        "<heading>"
+      ],
+      "answer": "<h1>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 6,
+      "question": "Which tag is used to create a paragraph?",
+      "options": [
+        "<para>",
+        "<text>",
+        "<p>",
+        "<paragraph>"
+      ],
+      "answer": "<p>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 7,
+      "question": "Which tag is used to insert a line break?",
+      "options": [
+        "<lb>",
+        "<break>",
+        "<br>",
+        "<hr>"
+      ],
+      "answer": "<br>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 8,
+      "question": "Which HTML tag creates a horizontal line?",
+      "options": [
+        "<line>",
+        "<hr>",
+        "<br>",
+        "<border>"
+      ],
+      "answer": "<hr>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 9,
+      "question": "Which tag is used to create an unordered list?",
+      "options": [
+        "<ol>",
+        "<ul>",
+        "<li>",
+        "<list>"
+      ],
+      "answer": "<ul>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 10,
+      "question": "Which tag is used to create an ordered list?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<order>"
+      ],
+      "answer": "<ol>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 11,
+      "question": "Which tag defines a list item?",
+      "options": [
+        "<li>",
+        "<list>",
+        "<item>",
+        "<ul>"
+      ],
+      "answer": "<li>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 12,
+      "question": "Which HTML tag is used to create a table?",
+      "options": [
+        "<table>",
+        "<tr>",
+        "<td>",
+        "<tab>"
+      ],
+      "answer": "<table>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 13,
+      "question": "Which tag defines a table row?",
+      "options": [
+        "<tr>",
+        "<td>",
+        "<th>",
+        "<row>"
+      ],
+      "answer": "<tr>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 14,
+      "question": "Which tag defines a table cell?",
+      "options": [
+        "<cell>",
+        "<td>",
+        "<tr>",
+        "<th>"
+      ],
+      "answer": "<td>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 15,
+      "question": "Which tag creates a table heading cell?",
+      "options": [
+        "<th>",
+        "<thead>",
+        "<heading>",
+        "<td>"
+      ],
+      "answer": "<th>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 16,
+      "question": "Which tag is used to create an HTML form?",
+      "options": [
+        "<form>",
+        "<input>",
+        "<fieldset>",
+        "<label>"
+      ],
+      "answer": "<form>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 17,
+      "question": "Which HTML element is used to take text input from a user?",
+      "options": [
+        "<textarea>",
+        "<input>",
+        "<text>",
+        "<textbox>"
+      ],
+      "answer": "<input>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 18,
+      "question": "Which input type hides the entered characters?",
+      "options": [
+        "text",
+        "password",
+        "email",
+        "hidden"
+      ],
+      "answer": "password",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 19,
+      "question": "Which attribute provides a short hint inside an input field?",
+      "options": [
+        "title",
+        "placeholder",
+        "hint",
+        "value"
+      ],
+      "answer": "placeholder",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 20,
+      "question": "Which HTML tag is used to create a button?",
+      "options": [
+        "<button>",
+        "<btn>",
+        "<click>",
+        "<inputbutton>"
+      ],
+      "answer": "<button>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 21,
+      "question": "Which HTML tag is used to play a video?",
+      "options": [
+        "<movie>",
+        "<video>",
+        "<media>",
+        "<play>"
+      ],
+      "answer": "<video>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 22,
+      "question": "Which HTML tag is used to play audio?",
+      "options": [
+        "<sound>",
+        "<music>",
+        "<audio>",
+        "<media>"
+      ],
+      "answer": "<audio>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 23,
+      "question": "Which semantic tag represents the main content of a page?",
+      "options": [
+        "<main>",
+        "<section>",
+        "<body>",
+        "<content>"
+      ],
+      "answer": "<main>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 24,
+      "question": "Which semantic element is generally used for navigation links?",
+      "options": [
+        "<menu>",
+        "<navbar>",
+        "<nav>",
+        "<navigation>"
+      ],
+      "answer": "<nav>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 25,
+      "question": "Which HTML tag contains metadata such as the page title and linked CSS files?",
+      "options": [
+        "<body>",
+        "<meta>",
+        "<head>",
+        "<header>"
+      ],
+      "answer": "<head>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 26,
+      "question": "Which HTML tag is used to define the footer of a webpage?",
+      "options": [
+        "<bottom>",
+        "<footer>",
+        "<end>",
+        "<section>"
+      ],
+      "answer": "<footer>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 27,
+      "question": "Which HTML tag is used to define the header of a webpage?",
+      "options": [
+        "<head>",
+        "<header>",
+        "<top>",
+        "<heading>"
+      ],
+      "answer": "<header>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 28,
+      "question": "Which semantic tag is used to represent independent content such as a blog post?",
+      "options": [
+        "<article>",
+        "<section>",
+        "<div>",
+        "<main>"
+      ],
+      "answer": "<article>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 29,
+      "question": "Which semantic tag groups related content together?",
+      "options": [
+        "<group>",
+        "<section>",
+        "<article>",
+        "<aside>"
+      ],
+      "answer": "<section>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 30,
+      "question": "Which HTML tag represents content related to the main content, such as a sidebar?",
+      "options": [
+        "<aside>",
+        "<sidebar>",
+        "<div>",
+        "<extra>"
+      ],
+      "answer": "<aside>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 31,
+      "question": "Which HTML element is used to group elements without adding semantic meaning?",
+      "options": [
+        "<section>",
+        "<div>",
+        "<span>",
+        "<group>"
+      ],
+      "answer": "<div>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 32,
+      "question": "Which HTML element is used to style a small portion of inline text?",
+      "options": [
+        "<span>",
+        "<div>",
+        "<label>",
+        "<text>"
+      ],
+      "answer": "<span>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 33,
+      "question": "Which attribute provides alternative text for an image?",
+      "options": [
+        "title",
+        "alt",
+        "src",
+        "name"
+      ],
+      "answer": "alt",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 34,
+      "question": "Which attribute specifies the destination URL of a hyperlink?",
+      "options": [
+        "src",
+        "href",
+        "link",
+        "target"
+      ],
+      "answer": "href",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 35,
+      "question": "Which attribute opens a link in a new browser tab?",
+      "options": [
+        "blank",
+        "target=\"_blank\"",
+        "newtab",
+        "window"
+      ],
+      "answer": "target=\"_blank\"",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 36,
+      "question": "Which HTML input type is used to select an email address?",
+      "options": [
+        "mail",
+        "email",
+        "text",
+        "address"
+      ],
+      "answer": "email",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 37,
+      "question": "Which input type is used to select a date?",
+      "options": [
+        "calendar",
+        "datetime",
+        "date",
+        "day"
+      ],
+      "answer": "date",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 38,
+      "question": "Which input type allows users to upload a file?",
+      "options": [
+        "upload",
+        "file",
+        "document",
+        "attachment"
+      ],
+      "answer": "file",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 39,
+      "question": "Which input type creates a checkbox?",
+      "options": [
+        "tick",
+        "checkbox",
+        "check",
+        "select"
+      ],
+      "answer": "checkbox",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 40,
+      "question": "Which input type creates a radio button?",
+      "options": [
+        "radio",
+        "option",
+        "select",
+        "choice"
+      ],
+      "answer": "radio",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 41,
+      "question": "Which HTML element creates a drop-down list?",
+      "options": [
+        "<dropdown>",
+        "<option>",
+        "<select>",
+        "<list>"
+      ],
+      "answer": "<select>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 42,
+      "question": "Which tag is used inside a <select> element?",
+      "options": [
+        "<item>",
+        "<choice>",
+        "<option>",
+        "<value>"
+      ],
+      "answer": "<option>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 43,
+      "question": "Which HTML tag is used for multi-line text input?",
+      "options": [
+        "<textbox>",
+        "<textarea>",
+        "<input>",
+        "<text>"
+      ],
+      "answer": "<textarea>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 44,
+      "question": "Which attribute makes an input field mandatory?",
+      "options": [
+        "validate",
+        "required",
+        "must",
+        "needed"
+      ],
+      "answer": "required",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 45,
+      "question": "Which attribute specifies the maximum number of characters allowed in an input field?",
+      "options": [
+        "maxlength",
+        "length",
+        "max",
+        "limit"
+      ],
+      "answer": "maxlength",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 46,
+      "question": "Which attribute disables an input field?",
+      "options": [
+        "readonly",
+        "disabled",
+        "inactive",
+        "lock"
+      ],
+      "answer": "disabled",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 47,
+      "question": "Which attribute makes an input field read-only?",
+      "options": [
+        "readonly",
+        "disabled",
+        "fixed",
+        "lock"
+      ],
+      "answer": "readonly",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 48,
+      "question": "Which HTML tag is used to define the title displayed on the browser tab?",
+      "options": [
+        "<meta>",
+        "<title>",
+        "<head>",
+        "<caption>"
+      ],
+      "answer": "<title>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 49,
+      "question": "Which HTML tag links an external CSS file?",
+      "options": [
+        "<css>",
+        "<style>",
+        "<link>",
+        "<script>"
+      ],
+      "answer": "<link>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 50,
+      "question": "Which HTML tag is used to include an external JavaScript file?",
+      "options": [
+        "<javascript>",
+        "<js>",
+        "<script>",
+        "<code>"
+      ],
+      "answer": "<script>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 51,
+      "question": "Which HTML tag is used to create the largest heading?",
+      "options": [
+        "<h1>",
+        "<h2>",
+        "<h6>",
+        "<heading>"
+      ],
+      "answer": "<h1>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 52,
+      "question": "Which HTML tag is used to define the smallest heading?",
+      "options": [
+        "<h6>",
+        "<h5>",
+        "<h4>",
+        "<small>"
+      ],
+      "answer": "<h6>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 53,
+      "question": "Which HTML tag is used to make text bold without adding semantic importance?",
+      "options": [
+        "<strong>",
+        "<b>",
+        "<bold>",
+        "<em>"
+      ],
+      "answer": "<b>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 54,
+      "question": "Which HTML tag is used to give strong importance to text?",
+      "options": [
+        "<strong>",
+        "<b>",
+        "<important>",
+        "<em>"
+      ],
+      "answer": "<strong>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 55,
+      "question": "Which HTML tag is used to display italic text?",
+      "options": [
+        "<italic>",
+        "<i>",
+        "<em>",
+        "<style>"
+      ],
+      "answer": "<i>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 56,
+      "question": "Which HTML tag is used to emphasize text?",
+      "options": [
+        "<em>",
+        "<i>",
+        "<italic>",
+        "<strong>"
+      ],
+      "answer": "<em>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 57,
+      "question": "Which HTML tag is used to underline text?",
+      "options": [
+        "<underline>",
+        "<u>",
+        "<line>",
+        "<ins>"
+      ],
+      "answer": "<u>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 58,
+      "question": "Which HTML tag is used to display deleted text?",
+      "options": [
+        "<delete>",
+        "<del>",
+        "<remove>",
+        "<strike>"
+      ],
+      "answer": "<del>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 59,
+      "question": "Which HTML tag is used to display inserted text?",
+      "options": [
+        "<insert>",
+        "<ins>",
+        "<new>",
+        "<add>"
+      ],
+      "answer": "<ins>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 60,
+      "question": "Which HTML tag is used to display highlighted text?",
+      "options": [
+        "<highlight>",
+        "<mark>",
+        "<span>",
+        "<color>"
+      ],
+      "answer": "<mark>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 61,
+      "question": "Which HTML tag is used to display superscript text?",
+      "options": [
+        "<sup>",
+        "<super>",
+        "<up>",
+        "<sub>"
+      ],
+      "answer": "<sup>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 62,
+      "question": "Which HTML tag is used to display subscript text?",
+      "options": [
+        "<sub>",
+        "<down>",
+        "<sup>",
+        "<small>"
+      ],
+      "answer": "<sub>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 63,
+      "question": "Which HTML tag is used to display preformatted text?",
+      "options": [
+        "<code>",
+        "<pre>",
+        "<text>",
+        "<format>"
+      ],
+      "answer": "<pre>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 64,
+      "question": "Which HTML tag is commonly used to display computer code?",
+      "options": [
+        "<code>",
+        "<pre>",
+        "<program>",
+        "<script>"
+      ],
+      "answer": "<code>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 65,
+      "question": "Which HTML tag is used to display keyboard input?",
+      "options": [
+        "<kbd>",
+        "<keyboard>",
+        "<key>",
+        "<input>"
+      ],
+      "answer": "<kbd>",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 66,
+      "question": "Which HTML tag is used to define a quotation?",
+      "options": [
+        "<quote>",
+        "<q>",
+        "<blockquote>",
+        "<cite>"
+      ],
+      "answer": "<q>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 67,
+      "question": "Which HTML tag is used for long quotations?",
+      "options": [
+        "<blockquote>",
+        "<quote>",
+        "<q>",
+        "<cite>"
+      ],
+      "answer": "<blockquote>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 68,
+      "question": "Which HTML tag is used to define an abbreviation?",
+      "options": [
+        "<abbr>",
+        "<short>",
+        "<acronym>",
+        "<small>"
+      ],
+      "answer": "<abbr>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 69,
+      "question": "Which HTML tag is used to define contact information?",
+      "options": [
+        "<contact>",
+        "<address>",
+        "<footer>",
+        "<info>"
+      ],
+      "answer": "<address>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 70,
+      "question": "Which HTML tag is used to define the title of a work?",
+      "options": [
+        "<cite>",
+        "<title>",
+        "<work>",
+        "<caption>"
+      ],
+      "answer": "<cite>",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 71,
+      "question": "Which HTML tag is used to display a short inline quotation?",
+      "options": [
+        "<q>",
+        "<blockquote>",
+        "<quote>",
+        "<cite>"
+      ],
+      "answer": "<q>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 72,
+      "question": "Which HTML tag defines metadata about an HTML document?",
+      "options": [
+        "<meta>",
+        "<data>",
+        "<info>",
+        "<description>"
+      ],
+      "answer": "<meta>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 73,
+      "question": "Which HTML tag specifies the character encoding of a webpage?",
+      "options": [
+        "<meta charset=\"UTF-8\">",
+        "<charset>",
+        "<encoding>",
+        "<utf>"
+      ],
+      "answer": "<meta charset=\"UTF-8\">",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 74,
+      "question": "Which HTML element is used to embed another webpage?",
+      "options": [
+        "<iframe>",
+        "<frame>",
+        "<embed>",
+        "<object>"
+      ],
+      "answer": "<iframe>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 75,
+      "question": "Which HTML tag is used to define an image map?",
+      "options": [
+        "<map>",
+        "<area>",
+        "<imagemap>",
+        "<imgmap>"
+      ],
+      "answer": "<map>",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 76,
+      "question": "Which HTML tag is used to define clickable areas inside an image map?",
+      "options": [
+        "<area>",
+        "<map>",
+        "<img>",
+        "<section>"
+      ],
+      "answer": "<area>",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 77,
+      "question": "Which HTML tag is used to embed external content such as PDF files?",
+      "options": [
+        "<embed>",
+        "<iframe>",
+        "<object>",
+        "<external>"
+      ],
+      "answer": "<embed>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 78,
+      "question": "Which HTML element is used to define a caption for a table?",
+      "options": [
+        "<caption>",
+        "<title>",
+        "<thead>",
+        "<label>"
+      ],
+      "answer": "<caption>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 79,
+      "question": "Which HTML element groups the header content of a table?",
+      "options": [
+        "<thead>",
+        "<tbody>",
+        "<tfoot>",
+        "<th>"
+      ],
+      "answer": "<thead>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 80,
+      "question": "Which HTML element contains the main data rows of a table?",
+      "options": [
+        "<tbody>",
+        "<thead>",
+        "<tfoot>",
+        "<table>"
+      ],
+      "answer": "<tbody>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 81,
+      "question": "Which HTML element defines the footer section of a table?",
+      "options": [
+        "<tfoot>",
+        "<tbody>",
+        "<thead>",
+        "<footer>"
+      ],
+      "answer": "<tfoot>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 82,
+      "question": "Which attribute specifies the number of columns a table cell should span?",
+      "options": [
+        "colspan",
+        "rowspan",
+        "span",
+        "columns"
+      ],
+      "answer": "colspan",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 83,
+      "question": "Which attribute specifies the number of rows a table cell should span?",
+      "options": [
+        "rowspan",
+        "colspan",
+        "rows",
+        "span"
+      ],
+      "answer": "rowspan",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 84,
+      "question": "Which HTML attribute uniquely identifies an element?",
+      "options": [
+        "class",
+        "id",
+        "name",
+        "identifier"
+      ],
+      "answer": "id",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 85,
+      "question": "Which HTML attribute is commonly used to group multiple elements?",
+      "options": [
+        "group",
+        "class",
+        "id",
+        "style"
+      ],
+      "answer": "class",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 86,
+      "question": "Which attribute is used to apply inline CSS to an HTML element?",
+      "options": [
+        "css",
+        "style",
+        "design",
+        "font"
+      ],
+      "answer": "style",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 87,
+      "question": "Which attribute specifies additional information shown as a tooltip?",
+      "options": [
+        "tooltip",
+        "title",
+        "hint",
+        "info"
+      ],
+      "answer": "title",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 88,
+      "question": "Which HTML input type is used to select a color?",
+      "options": [
+        "paint",
+        "color",
+        "palette",
+        "rgb"
+      ],
+      "answer": "color",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 89,
+      "question": "Which HTML input type is used to enter a number?",
+      "options": [
+        "numeric",
+        "number",
+        "digit",
+        "integer"
+      ],
+      "answer": "number",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 90,
+      "question": "Which HTML input type is used to enter a website address?",
+      "options": [
+        "website",
+        "url",
+        "link",
+        "web"
+      ],
+      "answer": "url",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 91,
+      "question": "Which HTML input type is used to select a time?",
+      "options": [
+        "clock",
+        "time",
+        "hour",
+        "datetime"
+      ],
+      "answer": "time",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 92,
+      "question": "Which HTML input type allows selecting a month?",
+      "options": [
+        "month",
+        "calendar",
+        "date",
+        "year"
+      ],
+      "answer": "month",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 93,
+      "question": "Which HTML input type allows selecting a week?",
+      "options": [
+        "week",
+        "calendar",
+        "date",
+        "schedule"
+      ],
+      "answer": "week",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 94,
+      "question": "Which HTML input type is used to select a range using a slider?",
+      "options": [
+        "slider",
+        "range",
+        "scroll",
+        "select"
+      ],
+      "answer": "range",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 95,
+      "question": "Which HTML5 element is commonly used to draw graphics with JavaScript?",
+      "options": [
+        "<canvas>",
+        "<svg>",
+        "<draw>",
+        "<graphic>"
+      ],
+      "answer": "<canvas>",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 96,
+      "question": "Which HTML element is used to create scalable vector graphics?",
+      "options": [
+        "<svg>",
+        "<canvas>",
+        "<vector>",
+        "<graphic>"
+      ],
+      "answer": "<svg>",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 97,
+      "question": "Which HTML tag is used to define a progress bar?",
+      "options": [
+        "<progress>",
+        "<meter>",
+        "<loading>",
+        "<bar>"
+      ],
+      "answer": "<progress>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 98,
+      "question": "Which HTML tag is used to display a measurement within a known range?",
+      "options": [
+        "<meter>",
+        "<progress>",
+        "<range>",
+        "<value>"
+      ],
+      "answer": "<meter>",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 99,
+      "question": "Which HTML element specifies a caption for the <figure> element?",
+      "options": [
+        "<figcaption>",
+        "<caption>",
+        "<title>",
+        "<label>"
+      ],
+      "answer": "<figcaption>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 100,
+      "question": "Which HTML tag is used to group an image and its caption together?",
+      "options": [
+        "<figure>",
+        "<img>",
+        "<picture>",
+        "<media>"
+      ],
+      "answer": "<figure>",
+      "difficulty": "Medium",
+      "marks": 1
+    }
+  ],
+  "css": [
+    {
+      "id": 1,
+      "question": "What does CSS stand for?",
+      "options": [
+        "Creative Style Sheets",
+        "Cascading Style Sheets",
+        "Computer Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "answer": "Cascading Style Sheets",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 2,
+      "question": "Which HTML tag is used to link an external CSS file?",
+      "options": [
+        "<style>",
+        "<css>",
+        "<link>",
+        "<script>"
+      ],
+      "answer": "<link>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 3,
+      "question": "Which CSS property changes the text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "foreground"
+      ],
+      "answer": "color",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 4,
+      "question": "Which CSS property changes the background color of an element?",
+      "options": [
+        "background",
+        "bgcolor",
+        "background-color",
+        "color"
+      ],
+      "answer": "background-color",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 5,
+      "question": "Which CSS property changes the font size?",
+      "options": [
+        "font-style",
+        "font-size",
+        "text-size",
+        "size"
+      ],
+      "answer": "font-size",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 6,
+      "question": "Which CSS property makes text bold?",
+      "options": [
+        "font-style",
+        "font-weight",
+        "text-bold",
+        "bold"
+      ],
+      "answer": "font-weight",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 7,
+      "question": "Which CSS property changes the font family?",
+      "options": [
+        "font-family",
+        "font-name",
+        "text-family",
+        "family"
+      ],
+      "answer": "font-family",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 8,
+      "question": "Which CSS property aligns text horizontally?",
+      "options": [
+        "text-position",
+        "text-align",
+        "align",
+        "horizontal-align"
+      ],
+      "answer": "text-align",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 9,
+      "question": "Which CSS property adds space inside an element?",
+      "options": [
+        "margin",
+        "padding",
+        "spacing",
+        "gap"
+      ],
+      "answer": "padding",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 10,
+      "question": "Which CSS property adds space outside an element?",
+      "options": [
+        "padding",
+        "margin",
+        "gap",
+        "border-spacing"
+      ],
+      "answer": "margin",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 11,
+      "question": "Which CSS property adds a border around an element?",
+      "options": [
+        "outline",
+        "border",
+        "frame",
+        "line"
+      ],
+      "answer": "border",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 12,
+      "question": "Which CSS property controls the width of an element?",
+      "options": [
+        "size",
+        "width",
+        "length",
+        "max-width"
+      ],
+      "answer": "width",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 13,
+      "question": "Which CSS property controls the height of an element?",
+      "options": [
+        "height",
+        "size",
+        "length",
+        "max-height"
+      ],
+      "answer": "height",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 14,
+      "question": "Which CSS property rounds the corners of an element?",
+      "options": [
+        "corner-radius",
+        "border-radius",
+        "radius",
+        "round"
+      ],
+      "answer": "border-radius",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 15,
+      "question": "Which CSS property adds a shadow to a box?",
+      "options": [
+        "shadow",
+        "box-shadow",
+        "border-shadow",
+        "element-shadow"
+      ],
+      "answer": "box-shadow",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 16,
+      "question": "Which CSS property changes the transparency of an element?",
+      "options": [
+        "opacity",
+        "transparent",
+        "visibility",
+        "alpha"
+      ],
+      "answer": "opacity",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 17,
+      "question": "Which CSS property hides an element but keeps its space reserved?",
+      "options": [
+        "display: none",
+        "visibility: hidden",
+        "opacity: 0",
+        "hidden: true"
+      ],
+      "answer": "visibility: hidden",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 18,
+      "question": "Which CSS property completely removes an element from the page layout?",
+      "options": [
+        "display: none",
+        "visibility: hidden",
+        "opacity: 0",
+        "position: absolute"
+      ],
+      "answer": "display: none",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 19,
+      "question": "Which CSS property changes the mouse cursor style?",
+      "options": [
+        "pointer",
+        "cursor",
+        "mouse",
+        "hover"
+      ],
+      "answer": "cursor",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 20,
+      "question": "Which CSS property specifies the display type of an element?",
+      "options": [
+        "display",
+        "position",
+        "layout",
+        "type"
+      ],
+      "answer": "display",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 21,
+      "question": "Which CSS display value places elements one below another by default?",
+      "options": [
+        "inline",
+        "block",
+        "flex",
+        "grid"
+      ],
+      "answer": "block",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 22,
+      "question": "Which CSS display value places elements in the same line?",
+      "options": [
+        "inline",
+        "block",
+        "flex",
+        "grid"
+      ],
+      "answer": "inline",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 23,
+      "question": "Which CSS value is commonly used to create flexible layouts?",
+      "options": [
+        "grid",
+        "inline",
+        "flex",
+        "block"
+      ],
+      "answer": "flex",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 24,
+      "question": "Which CSS property is used to create space between flex items?",
+      "options": [
+        "margin",
+        "padding",
+        "gap",
+        "spacing"
+      ],
+      "answer": "gap",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 25,
+      "question": "Which CSS property is used to align items vertically in a flex container?",
+      "options": [
+        "justify-content",
+        "align-items",
+        "text-align",
+        "vertical-align"
+      ],
+      "answer": "align-items",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 26,
+      "question": "Which CSS property aligns flex items horizontally?",
+      "options": [
+        "align-items",
+        "justify-content",
+        "text-align",
+        "align-content"
+      ],
+      "answer": "justify-content",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 27,
+      "question": "Which CSS property changes the order of flex items?",
+      "options": [
+        "position",
+        "order",
+        "flex-order",
+        "arrange"
+      ],
+      "answer": "order",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 28,
+      "question": "Which CSS property allows flex items to move onto multiple lines?",
+      "options": [
+        "flex-wrap",
+        "wrap",
+        "flex-flow",
+        "overflow"
+      ],
+      "answer": "flex-wrap",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 29,
+      "question": "Which CSS property combines flex-direction and flex-wrap?",
+      "options": [
+        "flex",
+        "flex-layout",
+        "flex-flow",
+        "flow"
+      ],
+      "answer": "flex-flow",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 30,
+      "question": "Which CSS property specifies the direction of flex items?",
+      "options": [
+        "flex-direction",
+        "direction",
+        "flex-wrap",
+        "justify-content"
+      ],
+      "answer": "flex-direction",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 31,
+      "question": "Which CSS property changes the stacking order of positioned elements?",
+      "options": [
+        "layer",
+        "z-index",
+        "stack",
+        "index"
+      ],
+      "answer": "z-index",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 32,
+      "question": "Which CSS position value keeps an element in its normal document flow?",
+      "options": [
+        "relative",
+        "absolute",
+        "static",
+        "fixed"
+      ],
+      "answer": "static",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 33,
+      "question": "Which CSS position value positions an element relative to its normal position?",
+      "options": [
+        "absolute",
+        "fixed",
+        "relative",
+        "sticky"
+      ],
+      "answer": "relative",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 34,
+      "question": "Which CSS position value positions an element relative to its nearest positioned ancestor?",
+      "options": [
+        "relative",
+        "absolute",
+        "fixed",
+        "sticky"
+      ],
+      "answer": "absolute",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 35,
+      "question": "Which CSS position value keeps an element fixed on the screen while scrolling?",
+      "options": [
+        "absolute",
+        "relative",
+        "fixed",
+        "sticky"
+      ],
+      "answer": "fixed",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 36,
+      "question": "Which CSS position value behaves like relative until a scroll position is reached?",
+      "options": [
+        "absolute",
+        "sticky",
+        "fixed",
+        "static"
+      ],
+      "answer": "sticky",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 37,
+      "question": "Which CSS property controls how overflowing content is handled?",
+      "options": [
+        "overflow",
+        "clip",
+        "hidden",
+        "display"
+      ],
+      "answer": "overflow",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 38,
+      "question": "Which overflow value hides extra content?",
+      "options": [
+        "visible",
+        "scroll",
+        "hidden",
+        "auto"
+      ],
+      "answer": "hidden",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 39,
+      "question": "Which overflow value always shows scrollbars?",
+      "options": [
+        "auto",
+        "scroll",
+        "visible",
+        "hidden"
+      ],
+      "answer": "scroll",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 40,
+      "question": "Which overflow value shows scrollbars only when needed?",
+      "options": [
+        "scroll",
+        "auto",
+        "hidden",
+        "visible"
+      ],
+      "answer": "auto",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 41,
+      "question": "Which CSS selector selects all elements?",
+      "options": [
+        "*",
+        ".",
+        "#",
+        "+"
+      ],
+      "answer": "*",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 42,
+      "question": "Which CSS selector is used to select an element by its ID?",
+      "options": [
+        ".",
+        "#",
+        "*",
+        "@"
+      ],
+      "answer": "#",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 43,
+      "question": "Which CSS selector is used to select elements by class?",
+      "options": [
+        "#",
+        ".",
+        "*",
+        ":"
+      ],
+      "answer": ".",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 44,
+      "question": "Which CSS selector selects all <p> elements?",
+      "options": [
+        "p",
+        ".p",
+        "#p",
+        "*p"
+      ],
+      "answer": "p",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 45,
+      "question": "Which CSS pseudo-class applies styles when the mouse pointer is over an element?",
+      "options": [
+        ":hover",
+        ":focus",
+        ":active",
+        ":visited"
+      ],
+      "answer": ":hover",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 46,
+      "question": "Which CSS pseudo-class applies styles when an input field is selected?",
+      "options": [
+        ":hover",
+        ":focus",
+        ":checked",
+        ":active"
+      ],
+      "answer": ":focus",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 47,
+      "question": "Which CSS pseudo-class selects checked checkboxes or radio buttons?",
+      "options": [
+        ":selected",
+        ":checked",
+        ":active",
+        ":focus"
+      ],
+      "answer": ":checked",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 48,
+      "question": "Which CSS pseudo-element inserts content before an element?",
+      "options": [
+        "::before",
+        "::after",
+        ":before",
+        "::first"
+      ],
+      "answer": "::before",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 49,
+      "question": "Which CSS pseudo-element inserts content after an element?",
+      "options": [
+        "::before",
+        "::after",
+        "::end",
+        "::last"
+      ],
+      "answer": "::after",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 50,
+      "question": "Which CSS property creates smooth changes between property values?",
+      "options": [
+        "animation",
+        "transition",
+        "transform",
+        "effect"
+      ],
+      "answer": "transition",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 51,
+      "question": "Which CSS property is used to rotate an element?",
+      "options": [
+        "rotate",
+        "transform",
+        "transition",
+        "animation"
+      ],
+      "answer": "transform",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 52,
+      "question": "Which CSS function rotates an element by 45 degrees?",
+      "options": [
+        "rotate(45deg)",
+        "turn(45deg)",
+        "spin(45deg)",
+        "transform(45)"
+      ],
+      "answer": "rotate(45deg)",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 53,
+      "question": "Which CSS function enlarges an element?",
+      "options": [
+        "zoom()",
+        "scale()",
+        "grow()",
+        "expand()"
+      ],
+      "answer": "scale()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 54,
+      "question": "Which CSS function moves an element from its original position?",
+      "options": [
+        "move()",
+        "translate()",
+        "shift()",
+        "position()"
+      ],
+      "answer": "translate()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 55,
+      "question": "Which CSS property is used to create animations?",
+      "options": [
+        "transition",
+        "animation",
+        "effect",
+        "transform"
+      ],
+      "answer": "animation",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 56,
+      "question": "Which rule is used to define CSS animations?",
+      "options": [
+        "@animation",
+        "@keyframes",
+        "@frames",
+        "@transition"
+      ],
+      "answer": "@keyframes",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 57,
+      "question": "Which CSS property specifies how long an animation takes?",
+      "options": [
+        "animation-delay",
+        "animation-duration",
+        "animation-speed",
+        "transition-duration"
+      ],
+      "answer": "animation-duration",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 58,
+      "question": "Which CSS property delays the start of an animation?",
+      "options": [
+        "animation-duration",
+        "animation-delay",
+        "animation-start",
+        "transition-delay"
+      ],
+      "answer": "animation-delay",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 59,
+      "question": "Which CSS property specifies the number of times an animation repeats?",
+      "options": [
+        "animation-repeat",
+        "animation-count",
+        "animation-iteration-count",
+        "animation-loop"
+      ],
+      "answer": "animation-iteration-count",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 60,
+      "question": "Which CSS value makes an animation repeat forever?",
+      "options": [
+        "always",
+        "infinite",
+        "repeat",
+        "forever"
+      ],
+      "answer": "infinite",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 61,
+      "question": "Which CSS layout system arranges content into rows and columns?",
+      "options": [
+        "Flexbox",
+        "Grid",
+        "Float",
+        "Position"
+      ],
+      "answer": "Grid",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 62,
+      "question": "Which CSS property turns an element into a Grid container?",
+      "options": [
+        "display: flex",
+        "display: grid",
+        "grid: on",
+        "layout: grid"
+      ],
+      "answer": "display: grid",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 63,
+      "question": "Which CSS property defines the number of grid columns?",
+      "options": [
+        "grid-columns",
+        "grid-template-columns",
+        "column-count",
+        "grid-layout"
+      ],
+      "answer": "grid-template-columns",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 64,
+      "question": "Which CSS property defines the number of grid rows?",
+      "options": [
+        "grid-template-rows",
+        "grid-rows",
+        "row-count",
+        "grid-layout"
+      ],
+      "answer": "grid-template-rows",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 65,
+      "question": "Which CSS unit is relative to the root element's font size?",
+      "options": [
+        "px",
+        "em",
+        "rem",
+        "%"
+      ],
+      "answer": "rem",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 66,
+      "question": "Which CSS unit is relative to the parent element's font size?",
+      "options": [
+        "px",
+        "em",
+        "vh",
+        "vw"
+      ],
+      "answer": "em",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 67,
+      "question": "Which CSS unit represents 1% of the viewport width?",
+      "options": [
+        "vw",
+        "vh",
+        "%",
+        "rem"
+      ],
+      "answer": "vw",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 68,
+      "question": "Which CSS unit represents 1% of the viewport height?",
+      "options": [
+        "vh",
+        "vw",
+        "%",
+        "em"
+      ],
+      "answer": "vh",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 69,
+      "question": "Which CSS property is used to make a webpage responsive?",
+      "options": [
+        "media",
+        "@media",
+        "responsive",
+        "@responsive"
+      ],
+      "answer": "@media",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 70,
+      "question": "Which CSS media query is commonly used for mobile devices?",
+      "options": [
+        "@media (max-width: 768px)",
+        "@media (min-width: 1200px)",
+        "@media screen only",
+        "@media desktop"
+      ],
+      "answer": "@media (max-width: 768px)",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 71,
+      "question": "Which part of the CSS Box Model contains the content?",
+      "options": [
+        "Margin",
+        "Border",
+        "Content",
+        "Padding"
+      ],
+      "answer": "Content",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 72,
+      "question": "What is the correct order of the CSS Box Model from inside to outside?",
+      "options": [
+        "Content → Padding → Border → Margin",
+        "Content → Border → Padding → Margin",
+        "Margin → Border → Padding → Content",
+        "Padding → Content → Border → Margin"
+      ],
+      "answer": "Content → Padding → Border → Margin",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 73,
+      "question": "Which CSS property changes the style of a border?",
+      "options": [
+        "border-width",
+        "border-style",
+        "border-color",
+        "border-radius"
+      ],
+      "answer": "border-style",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 74,
+      "question": "Which CSS property changes the color of a border?",
+      "options": [
+        "border-color",
+        "color",
+        "outline-color",
+        "background-color"
+      ],
+      "answer": "border-color",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 75,
+      "question": "Which CSS property changes the thickness of a border?",
+      "options": [
+        "border-width",
+        "border-size",
+        "border-thickness",
+        "outline-width"
+      ],
+      "answer": "border-width",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 76,
+      "question": "Which CSS property changes the style of list item markers?",
+      "options": [
+        "list-style-type",
+        "list-type",
+        "marker-style",
+        "bullet-style"
+      ],
+      "answer": "list-style-type",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 77,
+      "question": "Which CSS property removes bullet points from an unordered list?",
+      "options": [
+        "list-style: none",
+        "bullet: none",
+        "list: remove",
+        "display: none"
+      ],
+      "answer": "list-style: none",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 78,
+      "question": "Which CSS property changes the mouse pointer to a hand icon?",
+      "options": [
+        "cursor: pointer",
+        "mouse: hand",
+        "pointer: hand",
+        "cursor: hand"
+      ],
+      "answer": "cursor: pointer",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 79,
+      "question": "Which CSS property controls the spacing between letters?",
+      "options": [
+        "word-spacing",
+        "letter-spacing",
+        "text-spacing",
+        "font-spacing"
+      ],
+      "answer": "letter-spacing",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 80,
+      "question": "Which CSS property controls the spacing between words?",
+      "options": [
+        "letter-spacing",
+        "word-spacing",
+        "text-spacing",
+        "font-spacing"
+      ],
+      "answer": "word-spacing",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 81,
+      "question": "Which CSS property controls the spacing between lines of text?",
+      "options": [
+        "line-height",
+        "text-height",
+        "font-height",
+        "line-spacing"
+      ],
+      "answer": "line-height",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 82,
+      "question": "Which CSS property transforms text to uppercase?",
+      "options": [
+        "font-transform",
+        "text-transform",
+        "uppercase",
+        "text-style"
+      ],
+      "answer": "text-transform",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 83,
+      "question": "Which value of text-transform converts text to uppercase?",
+      "options": [
+        "capitalize",
+        "uppercase",
+        "lowercase",
+        "none"
+      ],
+      "answer": "uppercase",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 84,
+      "question": "Which CSS value capitalizes the first letter of each word?",
+      "options": [
+        "uppercase",
+        "capitalize",
+        "lowercase",
+        "titlecase"
+      ],
+      "answer": "capitalize",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 85,
+      "question": "Which CSS property adds a shadow to text?",
+      "options": [
+        "font-shadow",
+        "text-shadow",
+        "shadow",
+        "text-effect"
+      ],
+      "answer": "text-shadow",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 86,
+      "question": "Which CSS property specifies how an element is positioned?",
+      "options": [
+        "position",
+        "display",
+        "layout",
+        "float"
+      ],
+      "answer": "position",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 87,
+      "question": "Which CSS property moves a positioned element from the top?",
+      "options": [
+        "top",
+        "margin-top",
+        "padding-top",
+        "up"
+      ],
+      "answer": "top",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 88,
+      "question": "Which CSS property moves a positioned element from the left?",
+      "options": [
+        "left",
+        "margin-left",
+        "padding-left",
+        "start"
+      ],
+      "answer": "left",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 89,
+      "question": "Which CSS property moves a positioned element from the right?",
+      "options": [
+        "right",
+        "margin-right",
+        "padding-right",
+        "end"
+      ],
+      "answer": "right",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 90,
+      "question": "Which CSS property moves a positioned element from the bottom?",
+      "options": [
+        "bottom",
+        "margin-bottom",
+        "padding-bottom",
+        "down"
+      ],
+      "answer": "bottom",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 91,
+      "question": "Which CSS property is used to float an element to the left or right?",
+      "options": [
+        "align",
+        "float",
+        "position",
+        "display"
+      ],
+      "answer": "float",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 92,
+      "question": "Which CSS property is used to prevent elements from wrapping around floated elements?",
+      "options": [
+        "clear",
+        "overflow",
+        "wrap",
+        "reset"
+      ],
+      "answer": "clear",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 93,
+      "question": "Which CSS property changes the transparency of a background image?",
+      "options": [
+        "opacity",
+        "background-opacity",
+        "alpha",
+        "visibility"
+      ],
+      "answer": "opacity",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 94,
+      "question": "Which CSS property specifies the image used as the background?",
+      "options": [
+        "background-image",
+        "image",
+        "background-src",
+        "background-url"
+      ],
+      "answer": "background-image",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 95,
+      "question": "Which CSS property prevents a background image from repeating?",
+      "options": [
+        "background-repeat: no-repeat",
+        "background: none",
+        "repeat: false",
+        "background-stop"
+      ],
+      "answer": "background-repeat: no-repeat",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 96,
+      "question": "Which CSS property makes a background image cover the entire element?",
+      "options": [
+        "background-size: cover",
+        "background-fit: cover",
+        "cover-image",
+        "background-fill"
+      ],
+      "answer": "background-size: cover",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 97,
+      "question": "Which CSS property controls the order of multiple background images?",
+      "options": [
+        "background-order",
+        "background-image",
+        "z-index",
+        "background-layer"
+      ],
+      "answer": "background-image",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 98,
+      "question": "Which CSS function creates a linear color transition?",
+      "options": [
+        "linear-gradient()",
+        "gradient()",
+        "color-gradient()",
+        "fade()"
+      ],
+      "answer": "linear-gradient()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 99,
+      "question": "Which CSS function creates a circular color transition?",
+      "options": [
+        "circle-gradient()",
+        "radial-gradient()",
+        "round-gradient()",
+        "gradient-circle()"
+      ],
+      "answer": "radial-gradient()",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 100,
+      "question": "Which CSS property is used to change the appearance of the mouse pointer when hovering over an element?",
+      "options": [
+        "pointer",
+        "cursor",
+        "hover-pointer",
+        "mouse-style"
+      ],
+      "answer": "cursor",
+      "difficulty": "Easy",
+      "marks": 1
+    }
+  ],
+  "javascript": [
+    {
+      "id": 1,
+      "question": "What does JavaScript primarily do?",
+      "options": [
+        "Styles web pages",
+        "Structures web pages",
+        "Adds interactivity to web pages",
+        "Stores database records"
+      ],
+      "answer": "Adds interactivity to web pages",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 2,
+      "question": "Which HTML tag is used to include JavaScript?",
+      "options": [
+        "<javascript>",
+        "<script>",
+        "<js>",
+        "<code>"
+      ],
+      "answer": "<script>",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 3,
+      "question": "Which keyword is used to declare a variable in modern JavaScript?",
+      "options": [
+        "var",
+        "let",
+        "Both var and let",
+        "define"
+      ],
+      "answer": "Both var and let",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 4,
+      "question": "Which keyword declares a constant variable?",
+      "options": [
+        "let",
+        "const",
+        "constant",
+        "var"
+      ],
+      "answer": "const",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 5,
+      "question": "Which function displays a message in a popup box?",
+      "options": [
+        "print()",
+        "alert()",
+        "message()",
+        "popup()"
+      ],
+      "answer": "alert()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 6,
+      "question": "Which function is used to print output in the browser console?",
+      "options": [
+        "console.print()",
+        "console.log()",
+        "print()",
+        "display()"
+      ],
+      "answer": "console.log()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 7,
+      "question": "Which operator is used for strict equality comparison?",
+      "options": [
+        "=",
+        "==",
+        "===",
+        "!="
+      ],
+      "answer": "===",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 8,
+      "question": "Which operator is used to assign a value?",
+      "options": [
+        "=",
+        "==",
+        "===",
+        "=>"
+      ],
+      "answer": "=",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 9,
+      "question": "Which keyword is used to create a function?",
+      "options": [
+        "function",
+        "func",
+        "define",
+        "method"
+      ],
+      "answer": "function",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 10,
+      "question": "Which keyword returns a value from a function?",
+      "options": [
+        "break",
+        "return",
+        "yield",
+        "stop"
+      ],
+      "answer": "return",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 11,
+      "question": "Which loop repeats while a condition is true?",
+      "options": [
+        "for",
+        "while",
+        "foreach",
+        "repeat"
+      ],
+      "answer": "while",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 12,
+      "question": "Which loop is commonly used when the number of iterations is known?",
+      "options": [
+        "while",
+        "for",
+        "do...while",
+        "repeat"
+      ],
+      "answer": "for",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 13,
+      "question": "Which statement is used to make decisions in JavaScript?",
+      "options": [
+        "if",
+        "loop",
+        "select",
+        "choose"
+      ],
+      "answer": "if",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 14,
+      "question": "Which statement is used when there are multiple conditions?",
+      "options": [
+        "if...else if",
+        "repeat",
+        "loop",
+        "switch only"
+      ],
+      "answer": "if...else if",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 15,
+      "question": "Which statement is useful for selecting one option from many cases?",
+      "options": [
+        "if",
+        "switch",
+        "for",
+        "while"
+      ],
+      "answer": "switch",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 16,
+      "question": "Which JavaScript data type represents true or false?",
+      "options": [
+        "String",
+        "Boolean",
+        "Number",
+        "Object"
+      ],
+      "answer": "Boolean",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 17,
+      "question": "Which data type is used for text?",
+      "options": [
+        "Number",
+        "String",
+        "Boolean",
+        "Array"
+      ],
+      "answer": "String",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 18,
+      "question": "Which data type stores a collection of values?",
+      "options": [
+        "String",
+        "Array",
+        "Boolean",
+        "Number"
+      ],
+      "answer": "Array",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 19,
+      "question": "Which method adds an element to the end of an array?",
+      "options": [
+        "push()",
+        "pop()",
+        "shift()",
+        "unshift()"
+      ],
+      "answer": "push()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 20,
+      "question": "Which method removes the last element of an array?",
+      "options": [
+        "push()",
+        "shift()",
+        "pop()",
+        "remove()"
+      ],
+      "answer": "pop()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 21,
+      "question": "Which method removes the first element of an array?",
+      "options": [
+        "shift()",
+        "pop()",
+        "push()",
+        "slice()"
+      ],
+      "answer": "shift()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 22,
+      "question": "Which method adds an element to the beginning of an array?",
+      "options": [
+        "push()",
+        "unshift()",
+        "shift()",
+        "splice()"
+      ],
+      "answer": "unshift()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 23,
+      "question": "Which method returns the length of an array?",
+      "options": [
+        "size()",
+        "count()",
+        "length",
+        "total()"
+      ],
+      "answer": "length",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 24,
+      "question": "Which object is used to access HTML elements in JavaScript?",
+      "options": [
+        "window",
+        "document",
+        "screen",
+        "navigator"
+      ],
+      "answer": "document",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 25,
+      "question": "Which method selects an element by its ID?",
+      "options": [
+        "getElementById()",
+        "queryElement()",
+        "selectById()",
+        "findElement()"
+      ],
+      "answer": "getElementById()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 26,
+      "question": "Which method selects the first element that matches a CSS selector?",
+      "options": [
+        "getElementById()",
+        "querySelector()",
+        "querySelectorAll()",
+        "getElementsByClassName()"
+      ],
+      "answer": "querySelector()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 27,
+      "question": "Which method selects all elements that match a CSS selector?",
+      "options": [
+        "querySelector()",
+        "querySelectorAll()",
+        "getElementById()",
+        "findAll()"
+      ],
+      "answer": "querySelectorAll()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 28,
+      "question": "Which method changes the text inside an HTML element?",
+      "options": [
+        "innerHTML",
+        "textContent",
+        "value",
+        "style"
+      ],
+      "answer": "textContent",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 29,
+      "question": "Which property changes the HTML content of an element?",
+      "options": [
+        "innerHTML",
+        "textContent",
+        "innerText",
+        "value"
+      ],
+      "answer": "innerHTML",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 30,
+      "question": "Which property gets or sets the value of an input field?",
+      "options": [
+        "textContent",
+        "value",
+        "innerHTML",
+        "data"
+      ],
+      "answer": "value",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 31,
+      "question": "Which event occurs when a user clicks an element?",
+      "options": [
+        "onhover",
+        "onclick",
+        "onchange",
+        "onfocus"
+      ],
+      "answer": "onclick",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 32,
+      "question": "Which event occurs when the value of an input changes?",
+      "options": [
+        "onclick",
+        "onchange",
+        "onkeyup",
+        "onload"
+      ],
+      "answer": "onchange",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 33,
+      "question": "Which event occurs when a web page has finished loading?",
+      "options": [
+        "onready",
+        "onload",
+        "onstart",
+        "onopen"
+      ],
+      "answer": "onload",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 34,
+      "question": "Which event occurs when a key is pressed?",
+      "options": [
+        "onkeypress",
+        "onkeydown",
+        "onkeyup",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 35,
+      "question": "Which method is used to attach an event listener?",
+      "options": [
+        "addEvent()",
+        "addEventListener()",
+        "attachEvent()",
+        "listen()"
+      ],
+      "answer": "addEventListener()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 36,
+      "question": "Which keyword refers to the current object?",
+      "options": [
+        "self",
+        "current",
+        "this",
+        "object"
+      ],
+      "answer": "this",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 37,
+      "question": "Which JavaScript keyword creates an object?",
+      "options": [
+        "class",
+        "object",
+        "new",
+        "create"
+      ],
+      "answer": "new",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 38,
+      "question": "Which method converts a JavaScript object into a JSON string?",
+      "options": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "toJSON()",
+        "convertJSON()"
+      ],
+      "answer": "JSON.stringify()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 39,
+      "question": "Which method converts a JSON string into a JavaScript object?",
+      "options": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "parseJSON()",
+        "toObject()"
+      ],
+      "answer": "JSON.parse()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 40,
+      "question": "Which symbol is used for single-line comments?",
+      "options": [
+        "//",
+        "/* */",
+        "#",
+        "<!-- -->"
+      ],
+      "answer": "//",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 41,
+      "question": "Which symbols are used for multi-line comments?",
+      "options": [
+        "//",
+        "/* */",
+        "#",
+        "<!-- -->"
+      ],
+      "answer": "/* */",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 42,
+      "question": "Which method converts a string to uppercase?",
+      "options": [
+        "toUpperCase()",
+        "upper()",
+        "uppercase()",
+        "toCaps()"
+      ],
+      "answer": "toUpperCase()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 43,
+      "question": "Which method converts a string to lowercase?",
+      "options": [
+        "toLowerCase()",
+        "lower()",
+        "lowercase()",
+        "toSmall()"
+      ],
+      "answer": "toLowerCase()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 44,
+      "question": "Which method joins array elements into a string?",
+      "options": [
+        "join()",
+        "concat()",
+        "merge()",
+        "combine()"
+      ],
+      "answer": "join()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 45,
+      "question": "Which method reverses the order of an array?",
+      "options": [
+        "sort()",
+        "reverse()",
+        "flip()",
+        "swap()"
+      ],
+      "answer": "reverse()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 46,
+      "question": "Which method sorts an array?",
+      "options": [
+        "arrange()",
+        "sort()",
+        "order()",
+        "sequence()"
+      ],
+      "answer": "sort()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 47,
+      "question": "Which method removes and returns the first element of an array?",
+      "options": [
+        "shift()",
+        "pop()",
+        "splice()",
+        "slice()"
+      ],
+      "answer": "shift()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 48,
+      "question": "Which method returns a portion of an array without changing the original array?",
+      "options": [
+        "splice()",
+        "slice()",
+        "cut()",
+        "split()"
+      ],
+      "answer": "slice()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 49,
+      "question": "Which method removes or replaces elements in an array?",
+      "options": [
+        "slice()",
+        "splice()",
+        "shift()",
+        "concat()"
+      ],
+      "answer": "splice()",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 50,
+      "question": "Which method combines two or more arrays into a new array?",
+      "options": [
+        "merge()",
+        "join()",
+        "concat()",
+        "combine()"
+      ],
+      "answer": "concat()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 51,
+      "question": "Which syntax is used to create an arrow function?",
+      "options": [
+        "=>",
+        "->",
+        "::",
+        "==>"
+      ],
+      "answer": "=>",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 52,
+      "question": "Which ES6 feature allows embedding variables inside strings?",
+      "options": [
+        "String Concatenation",
+        "Template Literals",
+        "Interpolation()",
+        "Format Strings"
+      ],
+      "answer": "Template Literals",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 53,
+      "question": "Which symbol is used for template literals?",
+      "options": [
+        "\" \"",
+        "' '",
+        "` `",
+        "( )"
+      ],
+      "answer": "` `",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 54,
+      "question": "Which operator is used as the spread operator?",
+      "options": [
+        "..",
+        "...",
+        "**",
+        "//"
+      ],
+      "answer": "...",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 55,
+      "question": "Which operator collects multiple function arguments into a single array?",
+      "options": [
+        "Spread Operator",
+        "Rest Operator",
+        "Concat Operator",
+        "Merge Operator"
+      ],
+      "answer": "Rest Operator",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 56,
+      "question": "Which keyword is used to declare a JavaScript class?",
+      "options": [
+        "object",
+        "class",
+        "new",
+        "define"
+      ],
+      "answer": "class",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 57,
+      "question": "Which keyword is used to inherit a class?",
+      "options": [
+        "implements",
+        "extends",
+        "inherits",
+        "superclass"
+      ],
+      "answer": "extends",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 58,
+      "question": "Which keyword calls the parent class constructor?",
+      "options": [
+        "parent",
+        "base",
+        "super",
+        "this"
+      ],
+      "answer": "super",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 59,
+      "question": "Which keyword pauses execution inside an async function?",
+      "options": [
+        "wait",
+        "pause",
+        "await",
+        "hold"
+      ],
+      "answer": "await",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 60,
+      "question": "Which keyword is required before a function that uses await?",
+      "options": [
+        "sync",
+        "promise",
+        "async",
+        "delay"
+      ],
+      "answer": "async",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 61,
+      "question": "Which object represents an asynchronous operation?",
+      "options": [
+        "Callback",
+        "Promise",
+        "Timer",
+        "Event"
+      ],
+      "answer": "Promise",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 62,
+      "question": "Which Promise method runs when the Promise is fulfilled?",
+      "options": [
+        "catch()",
+        "then()",
+        "finally()",
+        "resolve()"
+      ],
+      "answer": "then()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 63,
+      "question": "Which Promise method handles errors?",
+      "options": [
+        "catch()",
+        "then()",
+        "error()",
+        "fail()"
+      ],
+      "answer": "catch()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 64,
+      "question": "Which Promise method runs regardless of success or failure?",
+      "options": [
+        "always()",
+        "finally()",
+        "complete()",
+        "done()"
+      ],
+      "answer": "finally()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 65,
+      "question": "Which function executes code after a specified delay?",
+      "options": [
+        "setInterval()",
+        "setTimeout()",
+        "delay()",
+        "wait()"
+      ],
+      "answer": "setTimeout()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 66,
+      "question": "Which function repeatedly executes code at fixed intervals?",
+      "options": [
+        "setTimeout()",
+        "repeat()",
+        "setInterval()",
+        "loop()"
+      ],
+      "answer": "setInterval()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 67,
+      "question": "Which function stops a timer created by setTimeout()?",
+      "options": [
+        "clearTimeout()",
+        "stopTimeout()",
+        "cancelTimeout()",
+        "removeTimeout()"
+      ],
+      "answer": "clearTimeout()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 68,
+      "question": "Which function stops a timer created by setInterval()?",
+      "options": [
+        "clearInterval()",
+        "stopInterval()",
+        "cancelInterval()",
+        "removeInterval()"
+      ],
+      "answer": "clearInterval()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 69,
+      "question": "Which keyword exits a loop immediately?",
+      "options": [
+        "continue",
+        "break",
+        "return",
+        "exit"
+      ],
+      "answer": "break",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 70,
+      "question": "Which keyword skips the current iteration of a loop?",
+      "options": [
+        "skip",
+        "continue",
+        "break",
+        "pass"
+      ],
+      "answer": "continue",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 71,
+      "question": "Which method checks whether an array contains a specific value?",
+      "options": [
+        "find()",
+        "includes()",
+        "contains()",
+        "has()"
+      ],
+      "answer": "includes()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 72,
+      "question": "Which method returns the first array element that matches a condition?",
+      "options": [
+        "find()",
+        "filter()",
+        "map()",
+        "reduce()"
+      ],
+      "answer": "find()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 73,
+      "question": "Which method returns all array elements that match a condition?",
+      "options": [
+        "find()",
+        "filter()",
+        "map()",
+        "every()"
+      ],
+      "answer": "filter()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 74,
+      "question": "Which method creates a new array by transforming every element?",
+      "options": [
+        "filter()",
+        "map()",
+        "find()",
+        "sort()"
+      ],
+      "answer": "map()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 75,
+      "question": "Which method reduces an array to a single value?",
+      "options": [
+        "reduce()",
+        "map()",
+        "filter()",
+        "join()"
+      ],
+      "answer": "reduce()",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 76,
+      "question": "What will be the output of console.log(typeof 10)?",
+      "options": [
+        "\"integer\"",
+        "\"number\"",
+        "\"float\"",
+        "\"digit\""
+      ],
+      "answer": "\"number\"",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 77,
+      "question": "What will be the output of console.log(typeof \"Hello\")?",
+      "options": [
+        "\"text\"",
+        "\"string\"",
+        "\"word\"",
+        "\"char\""
+      ],
+      "answer": "\"string\"",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 78,
+      "question": "What will be the output of console.log(5 + \"5\")?",
+      "options": [
+        "10",
+        "\"55\"",
+        "Error",
+        "Undefined"
+      ],
+      "answer": "\"55\"",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 79,
+      "question": "What will be the output of console.log(5 === \"5\")?",
+      "options": [
+        "true",
+        "false",
+        "5",
+        "Error"
+      ],
+      "answer": "false",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 80,
+      "question": "What will be the output of console.log(5 == \"5\")?",
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "Undefined"
+      ],
+      "answer": "true",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 81,
+      "question": "Which value is considered falsy in JavaScript?",
+      "options": [
+        "\"Hello\"",
+        "1",
+        "0",
+        "[]"
+      ],
+      "answer": "0",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 82,
+      "question": "Which value is considered truthy in JavaScript?",
+      "options": [
+        "0",
+        "\"\"",
+        "[]",
+        "null"
+      ],
+      "answer": "[]",
+      "difficulty": "Hard",
+      "marks": 1
+    },
+    {
+      "id": 83,
+      "question": "Which keyword represents an intentional empty value?",
+      "options": [
+        "undefined",
+        "null",
+        "empty",
+        "false"
+      ],
+      "answer": "null",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 84,
+      "question": "Which value means a variable has been declared but not assigned?",
+      "options": [
+        "null",
+        "undefined",
+        "false",
+        "0"
+      ],
+      "answer": "undefined",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 85,
+      "question": "Which browser storage keeps data even after the browser is closed?",
+      "options": [
+        "sessionStorage",
+        "localStorage",
+        "memoryStorage",
+        "cacheStorage"
+      ],
+      "answer": "localStorage",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 86,
+      "question": "Which browser storage clears data when the browser tab is closed?",
+      "options": [
+        "localStorage",
+        "sessionStorage",
+        "database",
+        "cookies"
+      ],
+      "answer": "sessionStorage",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 87,
+      "question": "Which method stores data in localStorage?",
+      "options": [
+        "saveItem()",
+        "setItem()",
+        "addItem()",
+        "storeItem()"
+      ],
+      "answer": "setItem()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 88,
+      "question": "Which method retrieves data from localStorage?",
+      "options": [
+        "getItem()",
+        "readItem()",
+        "fetchItem()",
+        "openItem()"
+      ],
+      "answer": "getItem()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 89,
+      "question": "Which method removes a specific item from localStorage?",
+      "options": [
+        "deleteItem()",
+        "removeItem()",
+        "clearItem()",
+        "eraseItem()"
+      ],
+      "answer": "removeItem()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 90,
+      "question": "Which method removes all items from localStorage?",
+      "options": [
+        "removeAll()",
+        "deleteAll()",
+        "clear()",
+        "reset()"
+      ],
+      "answer": "clear()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 91,
+      "question": "Which JavaScript object provides mathematical functions?",
+      "options": [
+        "Number",
+        "Math",
+        "Calc",
+        "Arithmetic"
+      ],
+      "answer": "Math",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 92,
+      "question": "Which Math method returns the largest integer less than or equal to a number?",
+      "options": [
+        "Math.ceil()",
+        "Math.floor()",
+        "Math.round()",
+        "Math.max()"
+      ],
+      "answer": "Math.floor()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 93,
+      "question": "Which Math method rounds a number to the nearest integer?",
+      "options": [
+        "Math.floor()",
+        "Math.ceil()",
+        "Math.round()",
+        "Math.random()"
+      ],
+      "answer": "Math.round()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 94,
+      "question": "Which Math method generates a random number between 0 and 1?",
+      "options": [
+        "Math.random()",
+        "Math.rand()",
+        "Math.number()",
+        "Math.generate()"
+      ],
+      "answer": "Math.random()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 95,
+      "question": "Which object is used to work with dates and times?",
+      "options": [
+        "Time",
+        "Clock",
+        "Date",
+        "Calendar"
+      ],
+      "answer": "Date",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 96,
+      "question": "Which method returns the current year from a Date object?",
+      "options": [
+        "getYear()",
+        "getFullYear()",
+        "currentYear()",
+        "year()"
+      ],
+      "answer": "getFullYear()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 97,
+      "question": "Which method returns the current month from a Date object?",
+      "options": [
+        "getMonth()",
+        "getFullMonth()",
+        "month()",
+        "currentMonth()"
+      ],
+      "answer": "getMonth()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 98,
+      "question": "Which method returns the current date of the month?",
+      "options": [
+        "getDate()",
+        "getDay()",
+        "today()",
+        "date()"
+      ],
+      "answer": "getDate()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 99,
+      "question": "Which method returns the current hour?",
+      "options": [
+        "getHour()",
+        "getHours()",
+        "currentHour()",
+        "hour()"
+      ],
+      "answer": "getHours()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 100,
+      "question": "Which method returns the current minute?",
+      "options": [
+        "getMinute()",
+        "getMinutes()",
+        "currentMinute()",
+        "minute()"
+      ],
+      "answer": "getMinutes()",
+      "difficulty": "Medium",
+      "marks": 1
+    }
+  ],
+  "excel": [
+    {
+      "id": 1,
+      "question": "What is Microsoft Excel?",
+      "options": [
+        "A Word Processing Software",
+        "A Spreadsheet Application",
+        "A Web Browser",
+        "A Presentation Software"
+      ],
+      "answer": "A Spreadsheet Application",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the default file extension of an Excel workbook?",
+      "options": [
+        ".docx",
+        ".xlsx",
+        ".pptx",
+        ".csv"
+      ],
+      "answer": ".xlsx",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 3,
+      "question": "An Excel file is called a:",
+      "options": [
+        "Document",
+        "Workbook",
+        "Worksheet",
+        "Slide"
+      ],
+      "answer": "Workbook",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 4,
+      "question": "A single page inside an Excel workbook is called:",
+      "options": [
+        "Workbook",
+        "Worksheet",
+        "Cell",
+        "Table"
+      ],
+      "answer": "Worksheet",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 5,
+      "question": "What is the intersection of a row and a column called?",
+      "options": [
+        "Table",
+        "Range",
+        "Cell",
+        "Sheet"
+      ],
+      "answer": "Cell",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 6,
+      "question": "Which symbol is used to begin a formula in Excel?",
+      "options": [
+        "+",
+        "=",
+        "-",
+        "*"
+      ],
+      "answer": "=",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 7,
+      "question": "Which function adds numbers together?",
+      "options": [
+        "TOTAL()",
+        "SUM()",
+        "ADD()",
+        "PLUS()"
+      ],
+      "answer": "SUM()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 8,
+      "question": "Which function calculates the average of numbers?",
+      "options": [
+        "MEAN()",
+        "AVERAGE()",
+        "AVG()",
+        "MID()"
+      ],
+      "answer": "AVERAGE()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 9,
+      "question": "Which function counts cells containing numbers?",
+      "options": [
+        "COUNTA()",
+        "COUNT()",
+        "COUNTIF()",
+        "NUMBER()"
+      ],
+      "answer": "COUNT()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 10,
+      "question": "Which function counts all non-empty cells?",
+      "options": [
+        "COUNT()",
+        "COUNTA()",
+        "COUNTIF()",
+        "COUNTBLANK()"
+      ],
+      "answer": "COUNTA()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 11,
+      "question": "Which function counts blank cells?",
+      "options": [
+        "COUNT()",
+        "COUNTA()",
+        "COUNTBLANK()",
+        "BLANK()"
+      ],
+      "answer": "COUNTBLANK()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 12,
+      "question": "Which function returns the largest value in a range?",
+      "options": [
+        "MAX()",
+        "HIGH()",
+        "LARGE()",
+        "TOP()"
+      ],
+      "answer": "MAX()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 13,
+      "question": "Which function returns the smallest value in a range?",
+      "options": [
+        "LOW()",
+        "SMALL()",
+        "MIN()",
+        "BOTTOM()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 14,
+      "question": "Which function returns the number of characters in a text string?",
+      "options": [
+        "COUNT()",
+        "LEN()",
+        "TEXT()",
+        "LENGTH()"
+      ],
+      "answer": "LEN()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 15,
+      "question": "Which function converts text to uppercase?",
+      "options": [
+        "UPPER()",
+        "CAPITAL()",
+        "BIG()",
+        "UP()"
+      ],
+      "answer": "UPPER()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 16,
+      "question": "Which function converts text to lowercase?",
+      "options": [
+        "LOWER()",
+        "SMALL()",
+        "LOW()",
+        "DOWN()"
+      ],
+      "answer": "LOWER()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 17,
+      "question": "Which function joins two or more text strings?",
+      "options": [
+        "JOIN()",
+        "TEXTJOIN()",
+        "CONCAT()",
+        "Both TEXTJOIN() and CONCAT()"
+      ],
+      "answer": "Both TEXTJOIN() and CONCAT()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 18,
+      "question": "Which function returns today's date?",
+      "options": [
+        "DATE()",
+        "TODAY()",
+        "NOW()",
+        "CURRENTDATE()"
+      ],
+      "answer": "TODAY()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 19,
+      "question": "Which function returns the current date and time?",
+      "options": [
+        "TIME()",
+        "TODAY()",
+        "NOW()",
+        "DATE()"
+      ],
+      "answer": "NOW()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 20,
+      "question": "Which function checks whether a condition is TRUE or FALSE?",
+      "options": [
+        "CHECK()",
+        "IF()",
+        "TRUE()",
+        "LOGIC()"
+      ],
+      "answer": "IF()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 21,
+      "question": "Which Excel function searches vertically in a table?",
+      "options": [
+        "HLOOKUP()",
+        "VLOOKUP()",
+        "LOOKUP()",
+        "SEARCH()"
+      ],
+      "answer": "VLOOKUP()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 22,
+      "question": "Which Excel function searches horizontally in a table?",
+      "options": [
+        "HLOOKUP()",
+        "VLOOKUP()",
+        "LOOKUP()",
+        "MATCH()"
+      ],
+      "answer": "HLOOKUP()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 23,
+      "question": "Which function is the modern replacement for VLOOKUP?",
+      "options": [
+        "MATCH()",
+        "INDEX()",
+        "XLOOKUP()",
+        "LOOKUPNEW()"
+      ],
+      "answer": "XLOOKUP()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 24,
+      "question": "Which keyboard shortcut is used to save an Excel workbook?",
+      "options": [
+        "Ctrl + P",
+        "Ctrl + C",
+        "Ctrl + S",
+        "Ctrl + X"
+      ],
+      "answer": "Ctrl + S",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 25,
+      "question": "Which keyboard shortcut copies selected cells?",
+      "options": [
+        "Ctrl + X",
+        "Ctrl + C",
+        "Ctrl + V",
+        "Ctrl + Z"
+      ],
+      "answer": "Ctrl + C",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 26,
+      "question": "Which function adds only the cells that meet a specific condition?",
+      "options": [
+        "SUM()",
+        "SUMIF()",
+        "COUNTIF()",
+        "AVERAGEIF()"
+      ],
+      "answer": "SUMIF()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 27,
+      "question": "Which function counts cells that meet a specific condition?",
+      "options": [
+        "COUNT()",
+        "COUNTA()",
+        "COUNTIF()",
+        "SUMIF()"
+      ],
+      "answer": "COUNTIF()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 28,
+      "question": "Which function calculates the average of cells that meet a condition?",
+      "options": [
+        "AVERAGE()",
+        "AVERAGEIF()",
+        "AVGIF()",
+        "MEANIF()"
+      ],
+      "answer": "AVERAGEIF()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 29,
+      "question": "Which function checks multiple conditions in Excel?",
+      "options": [
+        "IFS()",
+        "IF()",
+        "SWITCH()",
+        "CHECK()"
+      ],
+      "answer": "IFS()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 30,
+      "question": "Which symbol is used for an absolute cell reference?",
+      "options": [
+        "#",
+        "$",
+        "@",
+        "&"
+      ],
+      "answer": "$",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is an absolute cell reference?",
+      "options": [
+        "A1",
+        "$A$1",
+        "A$1",
+        "$A1"
+      ],
+      "answer": "$A$1",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 32,
+      "question": "Which of the following is a relative cell reference?",
+      "options": [
+        "$A$1",
+        "$A1",
+        "A1",
+        "A$1"
+      ],
+      "answer": "A1",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 33,
+      "question": "Which function returns the position of a value in a range?",
+      "options": [
+        "MATCH()",
+        "INDEX()",
+        "LOOKUP()",
+        "SEARCH()"
+      ],
+      "answer": "MATCH()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 34,
+      "question": "Which function returns the value at a specified row and column?",
+      "options": [
+        "INDEX()",
+        "MATCH()",
+        "LOOKUP()",
+        "OFFSET()"
+      ],
+      "answer": "INDEX()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 35,
+      "question": "Which combination is commonly used as an alternative to VLOOKUP()?",
+      "options": [
+        "COUNT() + SUM()",
+        "INDEX() + MATCH()",
+        "LEFT() + RIGHT()",
+        "MIN() + MAX()"
+      ],
+      "answer": "INDEX() + MATCH()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 36,
+      "question": "Which Excel feature summarizes large amounts of data?",
+      "options": [
+        "Chart",
+        "Pivot Table",
+        "Filter",
+        "Sort"
+      ],
+      "answer": "Pivot Table",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 37,
+      "question": "Which tab is used to insert a Pivot Table?",
+      "options": [
+        "Home",
+        "Insert",
+        "Data",
+        "Review"
+      ],
+      "answer": "Insert",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 38,
+      "question": "Which feature highlights cells based on rules?",
+      "options": [
+        "Formatting",
+        "Conditional Formatting",
+        "Auto Format",
+        "Styles"
+      ],
+      "answer": "Conditional Formatting",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 39,
+      "question": "Which feature restricts the type of data entered into a cell?",
+      "options": [
+        "Filter",
+        "Validation",
+        "Data Validation",
+        "Protection"
+      ],
+      "answer": "Data Validation",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 40,
+      "question": "Which feature arranges data in ascending or descending order?",
+      "options": [
+        "Filter",
+        "Sort",
+        "Group",
+        "Freeze"
+      ],
+      "answer": "Sort",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 41,
+      "question": "Which feature displays only records that meet specific criteria?",
+      "options": [
+        "Sort",
+        "Filter",
+        "Group",
+        "Hide"
+      ],
+      "answer": "Filter",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 42,
+      "question": "Which keyboard shortcut opens the Find dialog box?",
+      "options": [
+        "Ctrl + H",
+        "Ctrl + G",
+        "Ctrl + F",
+        "Ctrl + R"
+      ],
+      "answer": "Ctrl + F",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 43,
+      "question": "Which keyboard shortcut opens the Replace dialog box?",
+      "options": [
+        "Ctrl + H",
+        "Ctrl + R",
+        "Ctrl + F",
+        "Ctrl + Shift + H"
+      ],
+      "answer": "Ctrl + H",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 44,
+      "question": "Which keyboard shortcut creates a new workbook?",
+      "options": [
+        "Ctrl + O",
+        "Ctrl + N",
+        "Ctrl + W",
+        "Ctrl + Shift + N"
+      ],
+      "answer": "Ctrl + N",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 45,
+      "question": "Which keyboard shortcut opens an existing workbook?",
+      "options": [
+        "Ctrl + O",
+        "Ctrl + P",
+        "Ctrl + L",
+        "Ctrl + Shift + O"
+      ],
+      "answer": "Ctrl + O",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 46,
+      "question": "Which keyboard shortcut undoes the last action?",
+      "options": [
+        "Ctrl + Y",
+        "Ctrl + U",
+        "Ctrl + Z",
+        "Ctrl + Shift + Z"
+      ],
+      "answer": "Ctrl + Z",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 47,
+      "question": "Which keyboard shortcut redoes the last undone action?",
+      "options": [
+        "Ctrl + Y",
+        "Ctrl + R",
+        "Ctrl + Shift + Z",
+        "Ctrl + D"
+      ],
+      "answer": "Ctrl + Y",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 48,
+      "question": "Which keyboard shortcut pastes copied data?",
+      "options": [
+        "Ctrl + C",
+        "Ctrl + V",
+        "Ctrl + X",
+        "Ctrl + P"
+      ],
+      "answer": "Ctrl + V",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 49,
+      "question": "Which keyboard shortcut cuts selected cells?",
+      "options": [
+        "Ctrl + X",
+        "Ctrl + C",
+        "Ctrl + V",
+        "Ctrl + D"
+      ],
+      "answer": "Ctrl + X",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 50,
+      "question": "Which keyboard shortcut selects all cells in the worksheet?",
+      "options": [
+        "Ctrl + A",
+        "Ctrl + S",
+        "Ctrl + Shift + A",
+        "Alt + A"
+      ],
+      "answer": "Ctrl + A",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 51,
+      "question": "Which function returns the leftmost characters from a text string?",
+      "options": [
+        "LEFT()",
+        "RIGHT()",
+        "MID()",
+        "TEXT()"
+      ],
+      "answer": "LEFT()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 52,
+      "question": "Which function returns the rightmost characters from a text string?",
+      "options": [
+        "LEFT()",
+        "RIGHT()",
+        "MID()",
+        "LEN()"
+      ],
+      "answer": "RIGHT()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 53,
+      "question": "Which function extracts characters from the middle of a text string?",
+      "options": [
+        "LEFT()",
+        "RIGHT()",
+        "MID()",
+        "TEXT()"
+      ],
+      "answer": "MID()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 54,
+      "question": "Which function removes extra spaces from text?",
+      "options": [
+        "CLEAN()",
+        "TRIM()",
+        "SPACE()",
+        "REMOVE()"
+      ],
+      "answer": "TRIM()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 55,
+      "question": "Which function converts a value into a specified text format?",
+      "options": [
+        "VALUE()",
+        "TEXT()",
+        "FORMAT()",
+        "STRING()"
+      ],
+      "answer": "TEXT()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 56,
+      "question": "Which function rounds a number to a specified number of digits?",
+      "options": [
+        "ROUND()",
+        "ROUNDUP()",
+        "ROUNDDOWN()",
+        "INT()"
+      ],
+      "answer": "ROUND()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 57,
+      "question": "Which function always rounds a number upward?",
+      "options": [
+        "ROUND()",
+        "ROUNDUP()",
+        "ROUNDDOWN()",
+        "CEILING()"
+      ],
+      "answer": "ROUNDUP()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 58,
+      "question": "Which function always rounds a number downward?",
+      "options": [
+        "ROUND()",
+        "ROUNDUP()",
+        "ROUNDDOWN()",
+        "FLOOR()"
+      ],
+      "answer": "ROUNDDOWN()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 59,
+      "question": "Which function returns a whole number by removing the decimal part?",
+      "options": [
+        "ROUND()",
+        "INT()",
+        "TRUNC()",
+        "Both INT() and TRUNC()"
+      ],
+      "answer": "Both INT() and TRUNC()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 60,
+      "question": "Which function returns a custom value instead of an error?",
+      "options": [
+        "ERROR()",
+        "IFERROR()",
+        "ISERROR()",
+        "CHECKERROR()"
+      ],
+      "answer": "IFERROR()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 61,
+      "question": "Which logical function returns TRUE only if all conditions are TRUE?",
+      "options": [
+        "OR()",
+        "AND()",
+        "NOT()",
+        "IF()"
+      ],
+      "answer": "AND()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 62,
+      "question": "Which logical function returns TRUE if at least one condition is TRUE?",
+      "options": [
+        "AND()",
+        "OR()",
+        "NOT()",
+        "IF()"
+      ],
+      "answer": "OR()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 63,
+      "question": "Which logical function reverses TRUE to FALSE and FALSE to TRUE?",
+      "options": [
+        "AND()",
+        "OR()",
+        "NOT()",
+        "IF()"
+      ],
+      "answer": "NOT()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 64,
+      "question": "Which Excel feature automatically fills values based on a detected pattern?",
+      "options": [
+        "AutoFill",
+        "Flash Fill",
+        "Quick Fill",
+        "Smart Fill"
+      ],
+      "answer": "Flash Fill",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 65,
+      "question": "Which keyboard shortcut activates Flash Fill?",
+      "options": [
+        "Ctrl + F",
+        "Ctrl + E",
+        "Ctrl + Shift + E",
+        "Alt + E"
+      ],
+      "answer": "Ctrl + E",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 66,
+      "question": "Which Excel feature keeps the header row visible while scrolling?",
+      "options": [
+        "Split",
+        "Freeze Panes",
+        "Lock Sheet",
+        "View Header"
+      ],
+      "answer": "Freeze Panes",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 67,
+      "question": "Which tab contains the Freeze Panes option?",
+      "options": [
+        "Home",
+        "Insert",
+        "View",
+        "Data"
+      ],
+      "answer": "View",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 68,
+      "question": "Which Excel feature converts a data range into a structured table?",
+      "options": [
+        "Format Cells",
+        "Table",
+        "Chart",
+        "Pivot Table"
+      ],
+      "answer": "Table",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 69,
+      "question": "Which keyboard shortcut creates a table from selected data?",
+      "options": [
+        "Ctrl + T",
+        "Ctrl + L",
+        "Both Ctrl + T and Ctrl + L",
+        "Ctrl + Shift + T"
+      ],
+      "answer": "Both Ctrl + T and Ctrl + L",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 70,
+      "question": "Which feature allows assigning a meaningful name to a cell or range?",
+      "options": [
+        "Cell Label",
+        "Named Range",
+        "Reference Box",
+        "Formula Name"
+      ],
+      "answer": "Named Range",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 71,
+      "question": "Which chart is best for showing trends over time?",
+      "options": [
+        "Pie Chart",
+        "Line Chart",
+        "Doughnut Chart",
+        "Radar Chart"
+      ],
+      "answer": "Line Chart",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 72,
+      "question": "Which chart is best for comparing values across categories?",
+      "options": [
+        "Bar/Column Chart",
+        "Pie Chart",
+        "Scatter Chart",
+        "Stock Chart"
+      ],
+      "answer": "Bar/Column Chart",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 73,
+      "question": "Which chart is best for showing parts of a whole?",
+      "options": [
+        "Line Chart",
+        "Pie Chart",
+        "Scatter Chart",
+        "Area Chart"
+      ],
+      "answer": "Pie Chart",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 74,
+      "question": "Which keyboard shortcut edits the active cell?",
+      "options": [
+        "F2",
+        "F4",
+        "F5",
+        "F7"
+      ],
+      "answer": "F2",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 75,
+      "question": "Which keyboard shortcut recalculates all formulas in the workbook?",
+      "options": [
+        "F5",
+        "F7",
+        "F9",
+        "Ctrl + F9"
+      ],
+      "answer": "F9",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 76,
+      "question": "Which file format stores data in plain text separated by commas?",
+      "options": [
+        ".xlsx",
+        ".csv",
+        ".docx",
+        ".pptx"
+      ],
+      "answer": ".csv",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 77,
+      "question": "What does CSV stand for?",
+      "options": [
+        "Comma Separated Values",
+        "Common Spreadsheet Values",
+        "Column Separated Values",
+        "Computer Saved Values"
+      ],
+      "answer": "Comma Separated Values",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 78,
+      "question": "Which Excel feature separates text into multiple columns?",
+      "options": [
+        "Split Cells",
+        "Text to Columns",
+        "Flash Fill",
+        "Data Split"
+      ],
+      "answer": "Text to Columns",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 79,
+      "question": "Which tab contains the Text to Columns feature?",
+      "options": [
+        "Home",
+        "Insert",
+        "Data",
+        "Review"
+      ],
+      "answer": "Data",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 80,
+      "question": "Which feature removes duplicate records from a dataset?",
+      "options": [
+        "Filter",
+        "Remove Duplicates",
+        "Unique Values",
+        "Sort"
+      ],
+      "answer": "Remove Duplicates",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 81,
+      "question": "Which tab contains the Remove Duplicates feature?",
+      "options": [
+        "Home",
+        "Data",
+        "Insert",
+        "View"
+      ],
+      "answer": "Data",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 82,
+      "question": "Which feature protects a worksheet from unauthorized changes?",
+      "options": [
+        "Protect Sheet",
+        "Freeze Panes",
+        "Hide Sheet",
+        "Lock Workbook"
+      ],
+      "answer": "Protect Sheet",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 83,
+      "question": "Which feature protects the structure of an Excel workbook?",
+      "options": [
+        "Protect Workbook",
+        "Protect Sheet",
+        "Lock Cells",
+        "Hide Workbook"
+      ],
+      "answer": "Protect Workbook",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 84,
+      "question": "Which feature defines the portion of a worksheet to print?",
+      "options": [
+        "Page Break",
+        "Print Area",
+        "Print Preview",
+        "Print Selection"
+      ],
+      "answer": "Print Area",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 85,
+      "question": "Which shortcut opens the Print window?",
+      "options": [
+        "Ctrl + P",
+        "Ctrl + Shift + P",
+        "Ctrl + R",
+        "Alt + P"
+      ],
+      "answer": "Ctrl + P",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 86,
+      "question": "What will =SUM(5,10,15) return?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "answer": "30",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 87,
+      "question": "What will =AVERAGE(10,20,30) return?",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "answer": "20",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 88,
+      "question": "What will =MAX(5,15,10) return?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "answer": "15",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 89,
+      "question": "What will =MIN(5,15,10) return?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "answer": "5",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 90,
+      "question": "What will =LEN(\"Excel\") return?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": "5",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 91,
+      "question": "What will =UPPER(\"excel\") return?",
+      "options": [
+        "Excel",
+        "EXCEL",
+        "excel",
+        "ExCeL"
+      ],
+      "answer": "EXCEL",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 92,
+      "question": "What will =LOWER(\"EXCEL\") return?",
+      "options": [
+        "Excel",
+        "EXCEL",
+        "excel",
+        "eXCEL"
+      ],
+      "answer": "excel",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 93,
+      "question": "What will =IF(10>5,\"Yes\",\"No\") return?",
+      "options": [
+        "Yes",
+        "No",
+        "TRUE",
+        "FALSE"
+      ],
+      "answer": "Yes",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 94,
+      "question": "Which feature is commonly used to summarize sales data by region?",
+      "options": [
+        "Pivot Table",
+        "Find",
+        "Freeze Panes",
+        "Replace"
+      ],
+      "answer": "Pivot Table",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 95,
+      "question": "Which Excel feature is most useful for finding trends in data visually?",
+      "options": [
+        "Chart",
+        "Formula Bar",
+        "Name Box",
+        "Status Bar"
+      ],
+      "answer": "Chart",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 96,
+      "question": "Before applying a filter, your data should ideally have:",
+      "options": [
+        "Blank rows",
+        "Merged cells",
+        "Column headers",
+        "Hidden columns"
+      ],
+      "answer": "Column headers",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 97,
+      "question": "Which feature is best for quickly locating a value in a worksheet?",
+      "options": [
+        "Find",
+        "Sort",
+        "Filter",
+        "Zoom"
+      ],
+      "answer": "Find",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 98,
+      "question": "If you accidentally delete data, which shortcut should you use first?",
+      "options": [
+        "Ctrl + Y",
+        "Ctrl + Z",
+        "Ctrl + D",
+        "Ctrl + B"
+      ],
+      "answer": "Ctrl + Z",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 99,
+      "question": "Which Excel feature automatically updates calculations when source values change?",
+      "options": [
+        "Auto Calculate",
+        "Formula Calculation",
+        "Automatic Calculation",
+        "Calculation Engine"
+      ],
+      "answer": "Automatic Calculation",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 100,
+      "question": "Which Excel skill is most important for a Data Annotation Specialist working with large datasets?",
+      "options": [
+        "Using WordArt",
+        "Sorting, Filtering, and Basic Formulas",
+        "Creating Animations",
+        "Adding Audio"
+      ],
+      "answer": "Sorting, Filtering, and Basic Formulas",
+      "difficulty": "Easy",
+      "marks": 1
+    }
+  ],
+  "powerbi": [
+    {
+      "id": 1,
+      "question": "What is Microsoft Power BI?",
+      "options": [
+        "A Word Processing Software",
+        "A Data Visualization and Business Intelligence Tool",
+        "A Database Management System",
+        "A Programming Language"
+      ],
+      "answer": "A Data Visualization and Business Intelligence Tool",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 2,
+      "question": "Who developed Power BI?",
+      "options": [
+        "Google",
+        "Microsoft",
+        "IBM",
+        "Oracle"
+      ],
+      "answer": "Microsoft",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 3,
+      "question": "Which file extension is used for a Power BI Desktop report?",
+      "options": [
+        ".pbix",
+        ".xlsx",
+        ".pbit",
+        ".csv"
+      ],
+      "answer": ".pbix",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 4,
+      "question": "Which component is used to create reports in Power BI?",
+      "options": [
+        "Power BI Desktop",
+        "Power BI Mobile",
+        "Power Query",
+        "Excel"
+      ],
+      "answer": "Power BI Desktop",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 5,
+      "question": "Which Power BI component is used to publish reports online?",
+      "options": [
+        "Power BI Desktop",
+        "Power BI Service",
+        "Power BI Mobile",
+        "Power Query"
+      ],
+      "answer": "Power BI Service",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 6,
+      "question": "Which component is mainly used to view reports on smartphones?",
+      "options": [
+        "Power BI Desktop",
+        "Power BI Mobile",
+        "Power BI Service",
+        "Excel"
+      ],
+      "answer": "Power BI Mobile",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 7,
+      "question": "Which feature is used to connect Power BI to different data sources?",
+      "options": [
+        "Get Data",
+        "Insert",
+        "Export",
+        "Analyze"
+      ],
+      "answer": "Get Data",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 8,
+      "question": "Which file type can Power BI import?",
+      "options": [
+        "Excel",
+        "CSV",
+        "SQL Database",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 9,
+      "question": "Which Power BI tool is used for data cleaning and transformation?",
+      "options": [
+        "Power Query",
+        "Power Pivot",
+        "DAX",
+        "Visualizations"
+      ],
+      "answer": "Power Query",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 10,
+      "question": "Which language is used to create calculations in Power BI?",
+      "options": [
+        "SQL",
+        "Python",
+        "DAX",
+        "HTML"
+      ],
+      "answer": "DAX",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 11,
+      "question": "What does DAX stand for?",
+      "options": [
+        "Data Analysis Expressions",
+        "Dynamic Analysis Extension",
+        "Data Access Expressions",
+        "Database Analysis XML"
+      ],
+      "answer": "Data Analysis Expressions",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 12,
+      "question": "Which pane displays all imported tables and fields?",
+      "options": [
+        "Fields Pane",
+        "View Pane",
+        "Home Pane",
+        "Data Pane"
+      ],
+      "answer": "Fields Pane",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 13,
+      "question": "Which view is used to create relationships between tables?",
+      "options": [
+        "Report View",
+        "Data View",
+        "Model View",
+        "Query View"
+      ],
+      "answer": "Model View",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 14,
+      "question": "Which view displays data in table format?",
+      "options": [
+        "Model View",
+        "Data View",
+        "Report View",
+        "Dashboard View"
+      ],
+      "answer": "Data View",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 15,
+      "question": "Which view is used to create charts and reports?",
+      "options": [
+        "Model View",
+        "Report View",
+        "Data View",
+        "Query View"
+      ],
+      "answer": "Report View",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 16,
+      "question": "What is a visualization in Power BI?",
+      "options": [
+        "A Formula",
+        "A Chart or Graph",
+        "A Database",
+        "A Worksheet"
+      ],
+      "answer": "A Chart or Graph",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 17,
+      "question": "Which visualization is best for comparing values across categories?",
+      "options": [
+        "Pie Chart",
+        "Bar Chart",
+        "Gauge",
+        "Card"
+      ],
+      "answer": "Bar Chart",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 18,
+      "question": "Which visualization is best for showing trends over time?",
+      "options": [
+        "Pie Chart",
+        "Line Chart",
+        "Card",
+        "Gauge"
+      ],
+      "answer": "Line Chart",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 19,
+      "question": "Which visualization is best for showing parts of a whole?",
+      "options": [
+        "Line Chart",
+        "Pie Chart",
+        "Scatter Chart",
+        "Table"
+      ],
+      "answer": "Pie Chart",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 20,
+      "question": "Which visualization displays a single value, such as total sales?",
+      "options": [
+        "Card",
+        "Table",
+        "Pie Chart",
+        "Line Chart"
+      ],
+      "answer": "Card",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 21,
+      "question": "Which Power BI feature allows users to filter report data interactively?",
+      "options": [
+        "Slicer",
+        "Bookmark",
+        "Tooltip",
+        "Drillthrough"
+      ],
+      "answer": "Slicer",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 22,
+      "question": "Which feature filters visuals based on selected conditions?",
+      "options": [
+        "Filter Pane",
+        "Bookmark",
+        "Selection Pane",
+        "Format Pane"
+      ],
+      "answer": "Filter Pane",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 23,
+      "question": "Which chart is useful for showing geographical data?",
+      "options": [
+        "Map",
+        "Card",
+        "Gauge",
+        "Matrix"
+      ],
+      "answer": "Map",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 24,
+      "question": "Which visual displays data in rows and columns?",
+      "options": [
+        "Table",
+        "Pie Chart",
+        "Gauge",
+        "KPI"
+      ],
+      "answer": "Table",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 25,
+      "question": "Which visual groups rows and columns in a summarized format?",
+      "options": [
+        "Table",
+        "Matrix",
+        "Card",
+        "Scatter Chart"
+      ],
+      "answer": "Matrix",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 26,
+      "question": "What is a relationship in Power BI?",
+      "options": [
+        "A chart connection",
+        "A connection between tables",
+        "A report layout",
+        "A dashboard theme"
+      ],
+      "answer": "A connection between tables",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 27,
+      "question": "Which view is used to create relationships between tables?",
+      "options": [
+        "Report View",
+        "Data View",
+        "Model View",
+        "Home View"
+      ],
+      "answer": "Model View",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 28,
+      "question": "What is a Primary Key?",
+      "options": [
+        "A duplicate value",
+        "A unique column used to identify each record",
+        "A calculated column",
+        "A filtered column"
+      ],
+      "answer": "A unique column used to identify each record",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 29,
+      "question": "What is a Foreign Key?",
+      "options": [
+        "A unique identifier in the same table",
+        "A column that links one table to another",
+        "A hidden column",
+        "A calculated measure"
+      ],
+      "answer": "A column that links one table to another",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 30,
+      "question": "Which relationship type is most common in Power BI?",
+      "options": [
+        "One-to-One",
+        "One-to-Many",
+        "Many-to-Many",
+        "Zero-to-One"
+      ],
+      "answer": "One-to-Many",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 31,
+      "question": "Which relationship type allows multiple matching records in both tables?",
+      "options": [
+        "One-to-One",
+        "One-to-Many",
+        "Many-to-One",
+        "Many-to-Many"
+      ],
+      "answer": "Many-to-Many",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 32,
+      "question": "Which Power Query option combines rows from two tables?",
+      "options": [
+        "Merge Queries",
+        "Append Queries",
+        "Join Tables",
+        "Union Tables"
+      ],
+      "answer": "Append Queries",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 33,
+      "question": "Which Power Query option combines columns from related tables?",
+      "options": [
+        "Append Queries",
+        "Merge Queries",
+        "Stack Queries",
+        "Group Queries"
+      ],
+      "answer": "Merge Queries",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 34,
+      "question": "Which Power Query feature removes duplicate rows?",
+      "options": [
+        "Delete Rows",
+        "Remove Duplicates",
+        "Filter Rows",
+        "Keep Rows"
+      ],
+      "answer": "Remove Duplicates",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 35,
+      "question": "Which Power Query feature removes rows containing null values?",
+      "options": [
+        "Remove Blank Rows",
+        "Remove Empty",
+        "Delete Null",
+        "Filter Errors"
+      ],
+      "answer": "Remove Blank Rows",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 36,
+      "question": "Which transformation changes a column's data type?",
+      "options": [
+        "Replace Values",
+        "Change Type",
+        "Split Column",
+        "Merge Columns"
+      ],
+      "answer": "Change Type",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 37,
+      "question": "Which data type should be used for dates?",
+      "options": [
+        "Whole Number",
+        "Decimal Number",
+        "Date",
+        "Text"
+      ],
+      "answer": "Date",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 38,
+      "question": "Which data type should be used for names?",
+      "options": [
+        "Text",
+        "Whole Number",
+        "Decimal Number",
+        "Currency"
+      ],
+      "answer": "Text",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 39,
+      "question": "Which data type should be used for product prices?",
+      "options": [
+        "Text",
+        "Date",
+        "Currency",
+        "True/False"
+      ],
+      "answer": "Currency",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 40,
+      "question": "Which button refreshes data from the original source?",
+      "options": [
+        "Reload",
+        "Refresh",
+        "Reconnect",
+        "Update"
+      ],
+      "answer": "Refresh",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 41,
+      "question": "Which tab contains the Refresh option?",
+      "options": [
+        "Insert",
+        "Home",
+        "View",
+        "Modeling"
+      ],
+      "answer": "Home",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 42,
+      "question": "What does Power Query mainly do?",
+      "options": [
+        "Create Charts",
+        "Clean and Transform Data",
+        "Publish Reports",
+        "Manage Users"
+      ],
+      "answer": "Clean and Transform Data",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 43,
+      "question": "Which transformation splits one column into multiple columns?",
+      "options": [
+        "Merge Columns",
+        "Split Column",
+        "Duplicate Column",
+        "Rename Column"
+      ],
+      "answer": "Split Column",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 44,
+      "question": "Which transformation combines multiple columns into one?",
+      "options": [
+        "Append",
+        "Merge Columns",
+        "Split Column",
+        "Expand Column"
+      ],
+      "answer": "Merge Columns",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 45,
+      "question": "Which option changes the name of a column?",
+      "options": [
+        "Rename",
+        "Replace",
+        "Duplicate",
+        "Transform"
+      ],
+      "answer": "Rename",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 46,
+      "question": "Which feature removes unwanted columns from a table?",
+      "options": [
+        "Delete Columns",
+        "Remove Columns",
+        "Hide Columns",
+        "Drop Fields"
+      ],
+      "answer": "Remove Columns",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 47,
+      "question": "Which feature keeps only selected columns?",
+      "options": [
+        "Choose Columns",
+        "Keep Columns",
+        "Select Fields",
+        "Hide Others"
+      ],
+      "answer": "Keep Columns",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 48,
+      "question": "What is the purpose of filtering data in Power Query?",
+      "options": [
+        "Delete reports",
+        "Display only required records",
+        "Create relationships",
+        "Publish dashboards"
+      ],
+      "answer": "Display only required records",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 49,
+      "question": "Which feature sorts records from A to Z or smallest to largest?",
+      "options": [
+        "Filter",
+        "Sort",
+        "Group",
+        "Aggregate"
+      ],
+      "answer": "Sort",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 50,
+      "question": "Before creating visualizations, what is the most important step?",
+      "options": [
+        "Change Theme",
+        "Clean and Prepare Data",
+        "Publish Report",
+        "Add Bookmarks"
+      ],
+      "answer": "Clean and Prepare Data",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 51,
+      "question": "Which DAX function adds values in a column?",
+      "options": [
+        "COUNT()",
+        "SUM()",
+        "AVERAGE()",
+        "MAX()"
+      ],
+      "answer": "SUM()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 52,
+      "question": "Which DAX function counts the number of numeric values?",
+      "options": [
+        "COUNTA()",
+        "COUNT()",
+        "COUNTROWS()",
+        "COUNTBLANK()"
+      ],
+      "answer": "COUNT()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 53,
+      "question": "Which DAX function calculates the average of values?",
+      "options": [
+        "AVG()",
+        "AVERAGE()",
+        "MEAN()",
+        "MEDIAN()"
+      ],
+      "answer": "AVERAGE()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 54,
+      "question": "Which DAX function returns the highest value in a column?",
+      "options": [
+        "TOP()",
+        "MAX()",
+        "HIGH()",
+        "LARGE()"
+      ],
+      "answer": "MAX()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 55,
+      "question": "Which DAX function returns the lowest value in a column?",
+      "options": [
+        "MIN()",
+        "LOW()",
+        "SMALL()",
+        "BOTTOM()"
+      ],
+      "answer": "MIN()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 56,
+      "question": "Which DAX function allows you to modify the filter context?",
+      "options": [
+        "FILTER()",
+        "CALCULATE()",
+        "VALUES()",
+        "RELATED()"
+      ],
+      "answer": "CALCULATE()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 57,
+      "question": "Which DAX function is used to apply row filtering?",
+      "options": [
+        "FILTER()",
+        "LOOKUPVALUE()",
+        "RELATED()",
+        "DISTINCT()"
+      ],
+      "answer": "FILTER()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 58,
+      "question": "Which DAX function is used for conditional logic?",
+      "options": [
+        "SWITCH()",
+        "IF()",
+        "TRUE()",
+        "OR()"
+      ],
+      "answer": "IF()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 59,
+      "question": "What is a Measure in Power BI?",
+      "options": [
+        "A fixed value",
+        "A dynamic calculation based on filter context",
+        "A database table",
+        "A chart type"
+      ],
+      "answer": "A dynamic calculation based on filter context",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 60,
+      "question": "What is a Calculated Column?",
+      "options": [
+        "A column calculated row by row",
+        "A visual element",
+        "A report filter",
+        "A relationship"
+      ],
+      "answer": "A column calculated row by row",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 61,
+      "question": "Which is generally preferred for report calculations?",
+      "options": [
+        "Calculated Columns",
+        "Measures",
+        "Tables",
+        "Relationships"
+      ],
+      "answer": "Measures",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 62,
+      "question": "Which aggregation returns the total value?",
+      "options": [
+        "Average",
+        "Count",
+        "Sum",
+        "Minimum"
+      ],
+      "answer": "Sum",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 63,
+      "question": "Which aggregation counts the number of records?",
+      "options": [
+        "Average",
+        "Count",
+        "Maximum",
+        "Minimum"
+      ],
+      "answer": "Count",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 64,
+      "question": "Which aggregation returns the middle value of a dataset?",
+      "options": [
+        "Average",
+        "Median",
+        "Mode",
+        "Count"
+      ],
+      "answer": "Median",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 65,
+      "question": "What does KPI stand for?",
+      "options": [
+        "Key Performance Indicator",
+        "Knowledge Performance Index",
+        "Key Process Information",
+        "Known Performance Indicator"
+      ],
+      "answer": "Key Performance Indicator",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 66,
+      "question": "Which visual is commonly used to display a KPI?",
+      "options": [
+        "KPI Visual",
+        "Pie Chart",
+        "Scatter Chart",
+        "Matrix"
+      ],
+      "answer": "KPI Visual",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 67,
+      "question": "What does Drill Down allow you to do?",
+      "options": [
+        "Delete data",
+        "View more detailed levels of data",
+        "Export reports",
+        "Refresh data"
+      ],
+      "answer": "View more detailed levels of data",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 68,
+      "question": "What does Drill Through allow users to do?",
+      "options": [
+        "Navigate to a detailed report page",
+        "Delete reports",
+        "Merge tables",
+        "Create measures"
+      ],
+      "answer": "Navigate to a detailed report page",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 69,
+      "question": "Which feature saves a specific report view for later use?",
+      "options": [
+        "Bookmark",
+        "Tooltip",
+        "Filter",
+        "Theme"
+      ],
+      "answer": "Bookmark",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 70,
+      "question": "What is the purpose of a Tooltip?",
+      "options": [
+        "Show extra information when hovering over a visual",
+        "Delete filters",
+        "Create relationships",
+        "Export data"
+      ],
+      "answer": "Show extra information when hovering over a visual",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 71,
+      "question": "Which feature allows users to interact with report visuals?",
+      "options": [
+        "Slicers",
+        "Relationships",
+        "Queries",
+        "Themes"
+      ],
+      "answer": "Slicers",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 72,
+      "question": "Which DAX function returns today's date?",
+      "options": [
+        "DATE()",
+        "TODAY()",
+        "NOWDATE()",
+        "CURRENTDATE()"
+      ],
+      "answer": "TODAY()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 73,
+      "question": "Which DAX function returns the current date and time?",
+      "options": [
+        "TODAY()",
+        "NOW()",
+        "TIME()",
+        "CURRENTTIME()"
+      ],
+      "answer": "NOW()",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 74,
+      "question": "Which DAX function returns distinct values from a column?",
+      "options": [
+        "UNIQUE()",
+        "VALUES()",
+        "DISTINCTCOUNT()",
+        "FILTER()"
+      ],
+      "answer": "VALUES()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 75,
+      "question": "Which DAX function counts the number of rows in a table?",
+      "options": [
+        "COUNT()",
+        "COUNTROWS()",
+        "COUNTA()",
+        "ROWS()"
+      ],
+      "answer": "COUNTROWS()",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 76,
+      "question": "What is Power BI Service primarily used for?",
+      "options": [
+        "Writing DAX formulas",
+        "Sharing and publishing reports online",
+        "Creating Excel files",
+        "Installing Power BI Desktop"
+      ],
+      "answer": "Sharing and publishing reports online",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 77,
+      "question": "What is a Workspace in Power BI Service?",
+      "options": [
+        "A folder for reports and dashboards",
+        "A database",
+        "A chart type",
+        "A DAX function"
+      ],
+      "answer": "A folder for reports and dashboards",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 78,
+      "question": "What is the difference between a Report and a Dashboard?",
+      "options": [
+        "A Dashboard can contain visuals from multiple reports",
+        "A Report can contain visuals from multiple dashboards",
+        "There is no difference",
+        "Reports are only available on mobile"
+      ],
+      "answer": "A Dashboard can contain visuals from multiple reports",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 79,
+      "question": "Which feature keeps Power BI data updated automatically?",
+      "options": [
+        "Scheduled Refresh",
+        "Auto Save",
+        "Quick Refresh",
+        "Live Update"
+      ],
+      "answer": "Scheduled Refresh",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 80,
+      "question": "What is an On-premises Data Gateway used for?",
+      "options": [
+        "Creating reports",
+        "Connecting local data sources to Power BI Service",
+        "Building dashboards",
+        "Writing DAX"
+      ],
+      "answer": "Connecting local data sources to Power BI Service",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 81,
+      "question": "Which storage mode imports data into the Power BI model?",
+      "options": [
+        "DirectQuery",
+        "Import",
+        "Live Connection",
+        "Streaming"
+      ],
+      "answer": "Import",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 82,
+      "question": "Which storage mode queries the source database without importing data?",
+      "options": [
+        "Import",
+        "DirectQuery",
+        "Offline",
+        "Snapshot"
+      ],
+      "answer": "DirectQuery",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 83,
+      "question": "What does RLS stand for in Power BI?",
+      "options": [
+        "Report Level Security",
+        "Row Level Security",
+        "Record Level Service",
+        "Report Loading System"
+      ],
+      "answer": "Row Level Security",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 84,
+      "question": "Why is Row Level Security (RLS) used?",
+      "options": [
+        "To improve chart colors",
+        "To restrict data access for different users",
+        "To speed up Power Query",
+        "To create dashboards"
+      ],
+      "answer": "To restrict data access for different users",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 85,
+      "question": "Which visual is best for displaying a single important number?",
+      "options": [
+        "Pie Chart",
+        "Card",
+        "Scatter Chart",
+        "Map"
+      ],
+      "answer": "Card",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 86,
+      "question": "What should you do before creating a Power BI report?",
+      "options": [
+        "Clean and prepare the data",
+        "Publish the report",
+        "Create bookmarks",
+        "Add themes"
+      ],
+      "answer": "Clean and prepare the data",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 87,
+      "question": "Which practice improves report performance?",
+      "options": [
+        "Import unnecessary columns",
+        "Remove unused columns",
+        "Create duplicate tables",
+        "Use many unnecessary visuals"
+      ],
+      "answer": "Remove unused columns",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 88,
+      "question": "Which practice makes reports easier to understand?",
+      "options": [
+        "Use meaningful titles",
+        "Hide all labels",
+        "Use random colors",
+        "Avoid filters"
+      ],
+      "answer": "Use meaningful titles",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 89,
+      "question": "Which feature allows exporting report data?",
+      "options": [
+        "Export Data",
+        "Import Data",
+        "Sync Data",
+        "Analyze Data"
+      ],
+      "answer": "Export Data",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 90,
+      "question": "Which file format is commonly used to export report data?",
+      "options": [
+        ".csv",
+        ".exe",
+        ".html",
+        ".mp3"
+      ],
+      "answer": ".csv",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 91,
+      "question": "A sales manager wants to see monthly sales trends. Which visual is the best choice?",
+      "options": [
+        "Line Chart",
+        "Pie Chart",
+        "Card",
+        "Gauge"
+      ],
+      "answer": "Line Chart",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 92,
+      "question": "A manager wants to compare sales across different states. Which visual is most suitable?",
+      "options": [
+        "Bar Chart",
+        "Gauge",
+        "Card",
+        "Donut Chart"
+      ],
+      "answer": "Bar Chart",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 93,
+      "question": "Which Power BI feature allows users to click a value and view detailed information on another page?",
+      "options": [
+        "Bookmark",
+        "Drill Through",
+        "Tooltip",
+        "Sync Slicer"
+      ],
+      "answer": "Drill Through",
+      "difficulty": "Medium",
+      "marks": 1
+    },
+    {
+      "id": 94,
+      "question": "If duplicate records are imported into Power BI, where should they usually be removed?",
+      "options": [
+        "Power Query",
+        "Dashboard",
+        "Model View",
+        "Report View"
+      ],
+      "answer": "Power Query",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 95,
+      "question": "Which Power BI feature allows users to filter multiple visuals at once?",
+      "options": [
+        "Slicer",
+        "Bookmark",
+        "Theme",
+        "Tooltip"
+      ],
+      "answer": "Slicer",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 96,
+      "question": "What is the main purpose of Power BI?",
+      "options": [
+        "Writing programs",
+        "Data analysis and business intelligence",
+        "Creating websites",
+        "Editing videos"
+      ],
+      "answer": "Data analysis and business intelligence",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 97,
+      "question": "For a Data Annotation Specialist, Power BI is most useful for:",
+      "options": [
+        "Tracking annotation progress and quality",
+        "Writing HTML code",
+        "Editing images",
+        "Creating games"
+      ],
+      "answer": "Tracking annotation progress and quality",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 98,
+      "question": "Which Power BI skill is most valuable during a Data Annotation interview?",
+      "options": [
+        "Understanding dashboards and basic data analysis",
+        "Creating 3D games",
+        "Video editing",
+        "Graphic designing"
+      ],
+      "answer": "Understanding dashboards and basic data analysis",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 99,
+      "question": "Which of the following is considered a Power BI best practice?",
+      "options": [
+        "Keep reports simple and readable",
+        "Add as many visuals as possible",
+        "Use random field names",
+        "Ignore data cleaning"
+      ],
+      "answer": "Keep reports simple and readable",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "id": 100,
+      "question": "What is the most important first step before making business decisions using Power BI reports?",
+      "options": [
+        "Verify that the data is accurate",
+        "Change the report theme",
+        "Print the report",
+        "Hide all filters"
+      ],
+      "answer": "Verify that the data is accurate",
+      "difficulty": "Easy",
+      "marks": 1
+    }
+  ]
+}
