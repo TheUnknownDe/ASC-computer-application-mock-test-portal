@@ -4,6 +4,8 @@
 
 const express = require("express");
 
+const MongoStore = require("connect-mongo").default;
+
 const path = require("path");
 
 require("dotenv").config();
@@ -50,7 +52,7 @@ connectDB();
 
 
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 /* ===========================================================
         MIDDLEWARE
@@ -71,7 +73,7 @@ app.use(express.urlencoded({
 /* ===========================================================
         SESSION MIDDLEWARE
 =========================================================== */
-
+app.set("trust proxy", 1);
 app.use(session({
 
     secret: process.env.SESSION_SECRET,
@@ -80,11 +82,17 @@ app.use(session({
 
     saveUninitialized: false,
 
+    store: MongoStore.create({
+
+        mongoUrl: process.env.MONGODB_URI
+
+    }),
+
     cookie: {
 
         httpOnly: true,
 
-        secure: false,
+        secure: process.env.NODE_ENV === "production",
 
         maxAge: 1000 * 60 * 60 * 24
 
@@ -2234,7 +2242,7 @@ app.put("/api/students/delete/:id", async (request, response) => {
         START SERVER
 =========================================================== */
 
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
 
     console.log("========================================");
 
